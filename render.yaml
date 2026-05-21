@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: markup-languages-quiz
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
