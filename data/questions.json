@@ -1,0 +1,5637 @@
+[
+  {
+    "id": "SS2023-01",
+    "source": "Original SS2023",
+    "topic": "Standardsoftware",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Standard-Software sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Die gesamten Kosten für die Einführung einer Standard-Software können höher sein, als die einer entsprechenden Individual-Software.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "SAP kann als Standard-Software angesehen werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "MS Office kann als Standard-Software angesehen werden.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Standard-Software ist für spezielle Unternehmensfunktionen gedacht.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Standardsoftware ist für allgemeine Anforderungen gedacht; durch Einführung, Customizing und Betrieb können trotzdem hohe Gesamtkosten entstehen.",
+    "tags": []
+  },
+  {
+    "id": "SS2023-02",
+    "source": "Original SS2023",
+    "topic": "Open Source",
+    "type": "true_false",
+    "question": "Ein Closed-Source-Projekt ist die Bezeichnung für ein abgeschlossenes Software-Projekt, welches ursprünglich Open-Source war, jedoch hat die Community aufgehört den Code weiterzuentwickeln.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "Closed Source bedeutet in der Regel, dass der Quellcode nicht öffentlich zugänglich ist; es bezeichnet nicht bloß ein nicht mehr weiterentwickeltes Open-Source-Projekt.",
+    "tags": []
+  },
+  {
+    "id": "SS2023-03",
+    "source": "Original SS2023",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen betreffend Einteilung von IS nach Art der Entscheidung sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das strategische Management arbeitet hauptsächlich mit strukturierten Daten.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Im operativen Management arbeitet man hauptsächlich mit Systemen die Business Intelligence verwenden.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Im operativen Management arbeitet man hauptsächlich mit Systemen die Online Transaction Processing verwenden.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Das strategische Management arbeitet unter anderem mit Decision Support Systems.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-04",
+    "source": "Original SS2023",
+    "topic": "IT-Footprint",
+    "type": "true_false",
+    "question": "Die Verlagerung des IT-Footprint in Anlehnung an die aktuelle Unternehmensstrategie ermöglicht die Ausrichtung der eigenen IKT-Infrastruktur anhand der folgenden vier Kriterien: Wettbewerbsvorteil, Kostendämmung, Technologiefokus und Business-Service-Fokus. Der Ideale Footprint stellt eine Mischung dieser Kriterien dar; die Entscheidung zur Gestaltung der IKT-Infrastruktur wird entsprechend danach ausgestaltet.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-05",
+    "source": "Original SS2023",
+    "topic": "Standardsoftware",
+    "type": "multiple_choice",
+    "question": "Welche der folgenden Softwareprodukte sind Standard-SW?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Facebook App für Android",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "SAP",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Mozilla Firefox",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "MS Windows 8",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-06",
+    "source": "Original SS2023",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Umstellungsstrategien bei der ERP Einführung sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bei der teilweisen Ersetzung als Umstellungsstrategie werden Teile der Geschäftsobjekte mit dem neuen und Teile mit dem alten System verwaltet.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Bei der schrittweisen Ablösung als Umstellungsstrategie muss das System in Module aufgeteilt sein.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Bei der teilweisen Ersetzung als Umstellungsstrategie muss das System in Module aufgeteilt sein.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Bei der schrittweisen Ablösung als Umstellungsstrategie werden Teile der Geschäftsobjekte mit dem neuen und Teile mit dem alten System verwaltet.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-07",
+    "source": "Original SS2023",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu den Formen von Content sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schwach strukturierter Content ist Content in standardisierter Form.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Bei unstrukturiertem Content kann der Inhalt nicht so einfach erschlossen werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Schwach strukturierter Content ist beispielsweise ein Video.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Strukturierter Content sind Daten bspw. aus datenbankgestützten Systemen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-08",
+    "source": "Original SS2023",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Enterprise Resource Planning sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Enterprise Resource Planning ist ein Konzept.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Enterprise Resource Planning ist für die Verwaltung aller Ressourcen im Unternehmen gedacht.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Enterprise Resource Planning ist grundsätzlich nur für einen Unternehmensbereich gedacht.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Enterprise Resource Planning ist nur für die vergangenheitsbezogene Analyse von Unternehmensdaten gedacht.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Enterprise Resource Planning ist auch für die Analyse von Kennzahlen gedacht.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "e"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-09",
+    "source": "Original SS2023",
+    "topic": "Auswahl IS",
+    "type": "matching",
+    "question": "Ordnen Sie die Phasen bei der Auswahl eines ERP-Systems nach deren Aufwand (1 höchster Aufwand, 3 niedrigster Aufwand)!",
+    "options": [
+      {
+        "left": "Prozessanalyse",
+        "right": "1"
+      },
+      {
+        "left": "Anforderungen spezifizieren",
+        "right": "2"
+      },
+      {
+        "left": "Endauswahl und Entscheidung",
+        "right": "3"
+      }
+    ],
+    "correct": {
+      "Prozessanalyse": "1",
+      "Anforderungen spezifizieren": "2",
+      "Endauswahl und Entscheidung": "3"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-10",
+    "source": "Original SS2023",
+    "topic": "Wirtschaftlichkeit",
+    "type": "multiple_choice",
+    "question": "Stellen Sie Überlegungen zur Wirtschaftlichkeit von ERP-Systemen an. Welche Aspekte sollen in der Auswahl-Phase idealerweise beachtet werden?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Befragen der User des Alt-Systems, um deren Arbeitsweise möglichst zu optimieren und das System ohne Vorankündigung einführen zu können.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Alle System-Schnittstellen detailliert dokumentieren, wobei jene in vertikaler Richtung nicht von Relevanz sind.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Die vollständige Abbildung der betriebswirtschaftlichen Abläufe im Unternehmen, um Abhängigkeiten zu identifizieren.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ausschließlich Abteilungen des Unternehmens betrachten in denen die meisten Mitarbeiter mit dem neuen System arbeiten um eine repräsentative Menge zu erreichen.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Identifizieren notwendiger Anpassungen in bestehenden und im neuen System und ermitteln der Aufwände dafür.",
+        "correct": true
+      },
+      {
+        "id": "f",
+        "text": "Die Dokumentation der Schnittstellen mit anderen Systemen, nach innen und außen und Evaluierung selbiger für eine potenzielle Ablöse/Eliminierung.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "c",
+      "e",
+      "f"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-11",
+    "source": "Original SS2023",
+    "topic": "Einführung IS",
+    "type": "true_false",
+    "question": "Mit Hilfe eines Einführungs-Referenzmodells kann man überprüfen, welche Referenzen das einzuführende Informationssystem bereits hat.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-12",
+    "source": "Original SS2023",
+    "topic": "Produktivitätsparadoxon",
+    "type": "multiple_choice",
+    "question": "Welche Ursachen kann das Produktivitätsparadoxon in der IT haben?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Die Änderung von Unternehmensprozessen geht mit Lern- und Anpassungseffekten einher.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Die Mitarbeiterqualifikation sinkt und man kann billigere Arbeitskräfte einstellen.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Fehlende Vergleichswerte und mangelnde Transparenz lassen nicht erkennen, ob sich Investitionen gelohnt haben.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ungenutzte technische Potenziale verschlechtern die Effizienz des neuen Systems.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Wenn man sich dazu entscheidet immer das neueste System einzuführen kann nichts schief gehen.",
+        "correct": false
+      },
+      {
+        "id": "f",
+        "text": "Die Implementierungskosten sind sehr gering wenn man das System selbst erstellt.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-13",
+    "source": "Original SS2023",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen über die Einführung eines ERP-Systems sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "In der Prototypen-Phase der Einführung werden unter anderem Parametertests und Lasttests durchgeführt.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Oft scheitert die Einführung, weil im Vorfeld keine Analyse der bestehenden Geschäftsprozesse stattgefunden hat.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Ein Einführungs-Referenzmodell zeigt die einzelnen Schritte auf, die bei der Einführung durchzuführen sind.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Der Begriff Big-Bang-Umstellungsszenario beschreibt eine Einführung die explosionsartig schief gegangen ist.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-14",
+    "source": "Original SS2023",
+    "topic": "Skalierbarkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Skalierbarkeit von Systemen sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ein System skaliert gut, wenn bei 2facher Eingabemenge die 4fache Rechnerleistung benötigt wird.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Ein System skaliert schlecht, wenn bei 4facher Eingabemenge die 2fache Rechnerleistung benötigt wird.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Das Verhalten von Softwaresystemen in Bezug auf den Ressourcenverbrauch bei steigenden Eingabemengen nennt man Skalierbarkeit.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Skalierbarkeit ist oft auch die Bezeichnung für die Erweiterungsmöglichkeit eines Systems.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-15",
+    "source": "Original SS2023",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Was sind typische Fehler in der Auswahlphase für ein ERP-System?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Unartikulierte oder verschwommene Zielsetzungen",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Schlechte Vertragsverhandlungen",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Lange Dauer des Auswahlprozesses",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Zu genaue Definition der Anforderungen",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-16",
+    "source": "Original SS2023",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Was kann man bei der Einteilung von Informationssystemen über Entscheidungsstrukturen in Unternehmen sagen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das mittlere und Top-Management vertraut auf Informationen, welche oft mittels Business Intelligence (BI) erstellt werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Je höher die Entscheidungsebene ist, umso unstrukturierter werden die Daten.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Decision Support Systeme werden vom operativen Management genutzt.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Business Intelligence (BI) optimiert die Produktion.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Im operativen Bereich spricht man von Online Transaction Processing (OLTP) Systemen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "e"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-17",
+    "source": "Original SS2023",
+    "topic": "ECM",
+    "type": "true_false",
+    "question": "Information und Wissen ist neben Arbeit, Kapital und natürlichen Ressourcen in unserer heutigen Zeit der vierte Produktionsfaktor geworden. Vor allem in der Dienstleistungsbranche sind Informationen und Wissen entscheidend.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-18",
+    "source": "Original SS2023",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Einführung von ERP-Systemen sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Geschäftsprozesse sollten vollständig im Vorfeld analysiert worden sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Laufende Änderungen in der Teamzusammensetzung beim Partner wirken sich negativ auf die Einführung aus.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Die Fachabteilungen müssen in der Einführung nicht involviert sein.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Der Nutzen und die Ziele der Einführung müssen von Beginn an klar sein und kommuniziert werden.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-19",
+    "source": "Original SS2023",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Was ist der Unterschied zwischen Informationssystemen und Anwendungssystemen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das Anwendungssystem ist das Programm/die Software mit der zugehörigen Hardware und den zugehörigen Daten.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Es gibt keinen Unterschied. Anwendungssysteme sind Informationssysteme.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Erst wenn der Mensch das Anwendungssystem nutzt, die Informationen nutzt, wird es zum Informationssystem.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Erst wenn der Mensch das Informationssystem nutzt, die Informationen nutzt, wird es zum Anwendungssystem.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-20",
+    "source": "Original SS2023",
+    "topic": "ECM",
+    "type": "fill_blank",
+    "question": "Enterprise Content Management (ECM) are the [1], methods and tools used to capture, manage, store, preserve, and deliver content and [2] related to [3]. ECM tools and strategies allow the management of an organization's unstructured [4] wherever it exists.",
+    "options": [
+      {
+        "blank": 1,
+        "answer": "strategies"
+      },
+      {
+        "blank": 2,
+        "answer": "documents"
+      },
+      {
+        "blank": 3,
+        "answer": "organizational processes"
+      },
+      {
+        "blank": 4,
+        "answer": "information"
+      }
+    ],
+    "correct": [
+      "strategies",
+      "documents",
+      "organizational processes",
+      "information"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-21",
+    "source": "Original SS2023",
+    "topic": "Wirtschaftlichkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aussage(n) über die Wirtschaftlichkeit von Informationssystemen sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das generelle Ziel bei der Einführung eines neuen Informationssystems sollte die Optimierung von geschäftskritischen Prozessen sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Die Effizienz eines Informationssystems kann in der Planungs- und Entscheidungsphase durch TEI und Nutzwertanalyse betrachtet werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Die Nutzwertanalyse wird auf Basis des Product Lifecycle gebildet und analysiert für das Unternehmen wichtige Kriterien jeder Phase.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Mithilfe der ROI-Berechnung wird ermittelt, ob die Investition in ein Informationssystem eine Rendite ergeben hat, d.h. wirtschaftlich war.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-22",
+    "source": "Original SS2023",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Wie kann bei der Einführung eines Informationssystems den Problemen mit Usern entgegen gewirkt werden, um indirekte Kosten zu vermeiden?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Neuere Versionen einer Software haben immer eine bessere Usability, wodurch sich die User schneller zurecht finden.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Schulungspläne sollten bereits frühestmöglich angeboten werden, um die User schrittweise an die neue Software heranzuführen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Solange die Integration mit Microsoft Office gewährleistet werden kann, ist die Eintrittsbarriere für jedes System als niedrig zu erachten.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Die Einführung eines neuen Informationssystems ist allein schon wegen der schnellen Gewöhnung der User auf ein bestehendes Modell zu überlegen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-23",
+    "source": "Original SS2023",
+    "topic": "ERP",
+    "type": "matching",
+    "question": "Ordnen Sie die Aufgabenkategorie eines ERP-Systems der jeweiligen Tätigkeit zu!",
+    "options": [
+      {
+        "left": "Erstellen von Auswertungen",
+        "right": "Kennzahlenanalyse"
+      },
+      {
+        "left": "Automatisierung von Routinevorgängen - automatische Planung (Absatzmengen, Abfahrten, ...)",
+        "right": "Disposition"
+      },
+      {
+        "left": "Überblick über Informationen schaffen",
+        "right": "Kennzahlenbildung"
+      },
+      {
+        "left": "Datenhaltung für Geschäftsvorfälle (Aufträge, Avisos, ...)",
+        "right": "Administration"
+      }
+    ],
+    "correct": {
+      "Erstellen von Auswertungen": "Kennzahlenanalyse",
+      "Automatisierung von Routinevorgängen - automatische Planung (Absatzmengen, Abfahrten, ...)": "Disposition",
+      "Überblick über Informationen schaffen": "Kennzahlenbildung",
+      "Datenhaltung für Geschäftsvorfälle (Aufträge, Avisos, ...)": "Administration"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-24",
+    "source": "Original SS2023",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Anbieterpräsentation sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bei einer Anbieterpräsentation ermittelt man die Überdeckung zwischen Anforderungen und Standardkomponenten.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Bei einer Anbieterpräsentation sollte man als Anbieter nur die Standard-Module vorstellen.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Bei einer Anbieterpräsentation sollte man dem Anbieter im Vorfeld ausreichend Informationen zu den Anforderungen zur Verfügung stellen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Bei einer Anbieterpräsentation sendet der Anbieter eine genaue Beschreibung seines Systems, welche man sich durchliest um den besten Anbieter auszuwählen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-25",
+    "source": "Original SS2023",
+    "topic": "ECM",
+    "type": "matching",
+    "question": "Ordnen Sie die Elemente den Schichten der Systemarchitektur von ECM-Systemen zu!",
+    "options": [
+      {
+        "left": "Anwendungen/Enterprise Applications",
+        "right": "Nützen ECM-Dienste"
+      },
+      {
+        "left": "Dienste/Enterprise Content Management",
+        "right": "Eigentliche ECM-Funktionalitäten"
+      },
+      {
+        "left": "Repository/Infrastructure",
+        "right": "Unterste Ebene auf der ECM-Dienste laufen/\"Betriebssystem\""
+      }
+    ],
+    "correct": {
+      "Anwendungen/Enterprise Applications": "Nützen ECM-Dienste",
+      "Dienste/Enterprise Content Management": "Eigentliche ECM-Funktionalitäten",
+      "Repository/Infrastructure": "Unterste Ebene auf der ECM-Dienste laufen/\"Betriebssystem\""
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-26",
+    "source": "Original SS2023",
+    "topic": "TCO",
+    "type": "matching",
+    "question": "Bestimmen Sie, ob die folgenden Kosten direkt oder indirekt sind!",
+    "options": [
+      {
+        "left": "Anfänglicher Produktivitätsverlust",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Lizenzkosten",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Ungeplante Downtime",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Serviceverträge",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Datenkorrekturen/Datenreparaturen",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Lernen im Arbeitsalltag",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Hardware",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Technischer Support",
+        "right": "DIREKT"
+      }
+    ],
+    "correct": {
+      "Anfänglicher Produktivitätsverlust": "INDIREKT",
+      "Lizenzkosten": "DIREKT",
+      "Ungeplante Downtime": "INDIREKT",
+      "Serviceverträge": "DIREKT",
+      "Datenkorrekturen/Datenreparaturen": "INDIREKT",
+      "Lernen im Arbeitsalltag": "INDIREKT",
+      "Hardware": "DIREKT",
+      "Technischer Support": "DIREKT"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-27",
+    "source": "Original SS2023",
+    "topic": "Integration",
+    "type": "multiple_choice",
+    "question": "Welche der folgenden Beispiele beschreiben die horizontale Integration eines Informationssystems?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das Informationssystem kumuliert Daten aus dem Controlling und liefert diese Daten an das Top-Management.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Das Informationssystem unterstützt die Bereiche Rechnungswesen und Controlling und vernetzt diese Bereiche.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Das Informationssystem kumuliert Daten aus dem Bereich Produktion und liefert diese Daten weiter an das Controlling.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Das Informationssystem unterstützt die Bereiche Vertrieb, Beschaffung und Produktion und vernetzt diese Bereiche.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-28",
+    "source": "Original SS2023",
+    "topic": "Informationsmanagement",
+    "type": "matching",
+    "question": "Ordnen Sie die folgenden Begriffe den beiden Methoden zur Akquisition von Informationen zu!",
+    "options": [
+      {
+        "left": "Literaturrecherche",
+        "right": "Information Retrieval"
+      },
+      {
+        "left": "Website-Artikel verfassen",
+        "right": "Information Creation"
+      },
+      {
+        "left": "Foto aufnehmen",
+        "right": "Information Creation"
+      },
+      {
+        "left": "Suchmaschine",
+        "right": "Information Retrieval"
+      },
+      {
+        "left": "Website Crawling",
+        "right": "Information Retrieval"
+      },
+      {
+        "left": "Brieferstellung",
+        "right": "Information Creation"
+      }
+    ],
+    "correct": {
+      "Literaturrecherche": "Information Retrieval",
+      "Website-Artikel verfassen": "Information Creation",
+      "Foto aufnehmen": "Information Creation",
+      "Suchmaschine": "Information Retrieval",
+      "Website Crawling": "Information Retrieval",
+      "Brieferstellung": "Information Creation"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-29",
+    "source": "Original SS2023",
+    "topic": "Informationssysteme",
+    "type": "matching",
+    "question": "Ordnen Sie die Entscheidungsstrukturen und zugehörigen Informationssysteme den jeweiligen Management-Ebenen eines Unternehmens zu!",
+    "options": [
+      {
+        "left": "Semi-strukturiert",
+        "right": "Taktisches Management"
+      },
+      {
+        "left": "Transaction Processing System",
+        "right": "Operatives Management"
+      },
+      {
+        "left": "Management Information System",
+        "right": "Taktisches Management"
+      },
+      {
+        "left": "Decision Support System",
+        "right": "Strategisches Management"
+      },
+      {
+        "left": "Unstrukturiert",
+        "right": "Strategisches Management"
+      },
+      {
+        "left": "Strukturiert",
+        "right": "Operatives Management"
+      }
+    ],
+    "correct": {
+      "Semi-strukturiert": "Taktisches Management",
+      "Transaction Processing System": "Operatives Management",
+      "Management Information System": "Taktisches Management",
+      "Decision Support System": "Strategisches Management",
+      "Unstrukturiert": "Strategisches Management",
+      "Strukturiert": "Operatives Management"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-30",
+    "source": "Original SS2023",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Begriffen im Umfeld von ERP sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Eine Ressource im Sinne von ERP sind bspw. Bodenschätze, Fähigkeiten und Fertigkeiten von Mitarbeitern sowie Kundendaten.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Die langfristige Planung, auch strategische Planung genannt, hat mindestens einen Zeithorizont von über vier Jahren, unabhängig von der Branche.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ERP Systeme sind grundsätzlich für das gesamte Unternehmen gedacht.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Es gibt zwei Arten von Planung: Die indikative, die Verhaltensweisen vorschreibt, und die imperative, die Empfehlungen gibt.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-31",
+    "source": "Original SS2023",
+    "topic": "Make or Buy",
+    "type": "true_false",
+    "question": "Sie sind ein kleines, junges Start-Up in Graz, welches Exit-the-Room Räume anbietet. Ihre beiden Entwickler haben die benötigten Ressourcen und Fähigkeiten, am Markt gibt es keine passende AR-Lösung und die Auslastung ist niedrig. Im Sinne der Make-or-Buy-Matrix ist Make definitiv die richtige Entscheidung.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-32",
+    "source": "Original SS2023",
+    "topic": "Dokument",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Definition des Begriffs Dokument sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Für Dokumente gibt es verschiedene Trägermedien. Auch Internet-Seiten können als Dokumente angesehen werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Ein Dokument ist ein als Beweis geltendes Schriftstück.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Bildet man ein logistisches Objekt auf einem Trägermedium ab, entsteht ein Dokument.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Zeichen, Daten und Informationen sind logistische Objekte die direkt austauschbar sind.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-33",
+    "source": "Original SS2023",
+    "topic": "TEI",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zum TEI sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Der Nutzen zeigt nur die Kostensenkungen der internen IT auf.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Bei der Flexibilität geht es um die aktuellen Anforderungen, welche auch in 10 Jahren noch gelten.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Total Economic Impact stellt die Kosten und Leistungen einer IT-Infrastruktur gegenüber.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Neben dem TCO wird auch noch der Nutzen, die Flexibilität und ein Risikofaktor eingerechnet.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-34",
+    "source": "Original SS2023",
+    "topic": "Open Source",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu OpenSource sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "OpenSource Lösungen sind gesamtheitlich betrachtet immer teurer als ClosedSource Lösungen.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Wenn hinter einer OpenSource Lösung ein Unternehmen steht, sind trotzdem alle Features des Softwareprodukts unter der OpenSource Lizenz verfügbar.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Bevor man eine OpenSource Lösung einsetzt, sollte überprüft werden ob die Entwicklercommunity aktiv ist und mit der Weiterentwicklung der Lösung zu rechnen ist.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "OpenSource Lösungen sind gesamtheitlich betrachtet immer billiger als ClosedSource Lösungen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-35",
+    "source": "Original SS2023",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Je personalisierter ein IS ist, desto einfacher ist die Änderung durch den Hersteller.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Je standardisierter ein IS ist, umso mehr Aufwand ist für die Erstellung der IT Anforderungen notwendig.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Je standardisierter ein IS ist, desto weniger Aufwand ist für die Erstellung der IT Anforderungen notwendig.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Je personalisierter ein IS ist, desto schwieriger und aufwändiger ist die Änderung durch den Hersteller.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-36",
+    "source": "Original SS2023",
+    "topic": "Integration",
+    "type": "matching",
+    "question": "Ordnen Sie die Fragestellungen den Begrifflichkeiten der Dimensionen der Integration nach Mertens zu!",
+    "options": [
+      {
+        "left": "Über wie viele Einzeletappen hinweg findet die Integration statt?",
+        "right": "Reichweite"
+      },
+      {
+        "left": "Wie viele betriebliche Funktionen werden integriert?",
+        "right": "Umfang"
+      },
+      {
+        "left": "Welche Prozesse werden mit dem ERP-System unterstützt?",
+        "right": "Gegenstand"
+      },
+      {
+        "left": "Werden einzelne Funktionsbereiche oder einzelne Bearbeitungsstufen integriert?",
+        "right": "Richtung"
+      }
+    ],
+    "correct": {
+      "Über wie viele Einzeletappen hinweg findet die Integration statt?": "Reichweite",
+      "Wie viele betriebliche Funktionen werden integriert?": "Umfang",
+      "Welche Prozesse werden mit dem ERP-System unterstützt?": "Gegenstand",
+      "Werden einzelne Funktionsbereiche oder einzelne Bearbeitungsstufen integriert?": "Richtung"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-37",
+    "source": "Original SS2023",
+    "topic": "Open Source",
+    "type": "true_false",
+    "question": "Sie finden ein OpenSource ERP-Produkt im Internet, welches vom Funktionsumfang Ihre Anforderungen abzudecken scheint. Es gibt keine eigenen Entwickler, kaum Community-Aktivität und keinen professionellen Support. Obwohl die Anforderungen scheinbar abgedeckt werden, ist es nicht ratsam dieses ERP-System einzuführen.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-38",
+    "source": "Original SS2023",
+    "topic": "ERP",
+    "type": "true_false",
+    "question": "In typischen Branchen, in denen viele Unternehmen ein ERP-System im Einsatz haben, kann man in der Regel trotzdem einen Wettbewerbsvorteil durch den Einsatz von ERP-Systemen erreichen.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-39",
+    "source": "Original SS2023",
+    "topic": "ERP",
+    "type": "matching",
+    "question": "Ordnen Sie die Systeme, deren Bezeichnung und Kurzbezeichnung sowie deren Beschreibung der jeweiligen Zeitepoche zu!",
+    "options": [
+      {
+        "left": "1970 / MRP",
+        "right": "Material Requirement Planning / System rein für die Materialbedarfsplanung"
+      },
+      {
+        "left": "1980 / MRP II",
+        "right": "Manufacturing Resources Planning / Methode zur effektiven Planung aller Ressourcen im Fertigungsunternehmen"
+      },
+      {
+        "left": "1990 bis heute / ERP",
+        "right": "Enterprise Resource Planning / Ganzheitliches Konzept zur Planung von Unternehmensressourcen"
+      }
+    ],
+    "correct": {
+      "1970 / MRP": "Material Requirement Planning / System rein für die Materialbedarfsplanung",
+      "1980 / MRP II": "Manufacturing Resources Planning / Methode zur effektiven Planung aller Ressourcen im Fertigungsunternehmen",
+      "1990 bis heute / ERP": "Enterprise Resource Planning / Ganzheitliches Konzept zur Planung von Unternehmensressourcen"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "SS2023-40",
+    "source": "Original SS2023",
+    "topic": "Individualsoftware",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Individual-SW sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Individual-SW wird per Definition immer von den eigenen Mitarbeitern erstellt.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Die Einführung einer Individual-SW ist oft mit hohem Widerstand bei den Mitarbeitern verbunden.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Durch Individual-SW kann man möglicherweise Wettbewerbsvorteile erzielen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Bei Individual-SW erfolgt eine individuelle Anpassung der Software an die Aufgaben.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-01",
+    "source": "Original HK2025",
+    "topic": "Technische Klassifizierung",
+    "type": "multiple_choice",
+    "question": "Welche Kriterien zur technischen Klassifizierung eines Informationssystems auf Basis seiner Hardware gibt es?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Arbeitsplatzrechner",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Client/Server System",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Großrechner",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Cluster",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Mobile App",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-02",
+    "source": "Original HK2025",
+    "topic": "Integration",
+    "type": "multiple_choice",
+    "question": "Welche der folgenden Beispiele beschreiben die horizontale Integration eines Informationssystems?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das Informationssystem unterstützt die Bereiche Rechnungswesen und Controlling und vernetzt diese Bereiche.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Das Informationssystem unterstützt die Bereiche Vertrieb, Beschaffung und Produktion und vernetzt diese Bereiche.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Das Informationssystem kumuliert Daten aus dem Controlling und liefert diese Daten an das Top-Management.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Das Informationssystem kumuliert Daten aus dem Bereich Produktion und liefert diese Daten weiter an das Controlling.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-03",
+    "source": "Original HK2025",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Anbieterpräsentation sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bei einer Anbieterpräsentation sollte man als Anbieter nur die Standard-Module vorstellen.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Bei einer Anbieterpräsentation sollte man dem Anbieter im Vorfeld ausreichend Informationen zu den Anforderungen zur Verfügung stellen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Bei einer Anbieterpräsentation ermittelt man die Überdeckung zwischen Anforderungen und Standardkomponenten.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Bei einer Anbieterpräsentation sendet der Anbieter eine genaue Beschreibung seines Systems, welche man sich durchliest um den besten Anbieter auszuwählen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-04",
+    "source": "Original HK2025",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen betreffend Einteilung von IS nach Art der Entscheidung sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das strategische Management arbeitet unter anderem mit Decision Support Systems.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Im operativen Management arbeitet man hauptsächlich mit Systemen die Business Intelligence verwenden.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Im operativen Management arbeitet man hauptsächlich mit Systemen die Online Transaction Processing verwenden.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Das strategische Management arbeitet hauptsächlich mit strukturierten Daten.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-05",
+    "source": "Original HK2025",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Wie kann bei der Einführung eines Informationssystems den Problemen mit Usern entgegen gewirkt werden, um indirekte Kosten zu vermeiden?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Die Einführung eines neuen Informationssystems ist allein schon wegen der schnellen Gewöhnung der User auf ein bestehendes Modell zu überlegen.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Solange die Integration mit Microsoft Office gewährleistet werden kann, ist die Eintrittsbarriere für jedes System als niedrig zu erachten.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Neuere Versionen einer Software haben immer eine bessere Usability, wodurch sich die User schneller zurecht finden.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Schulungspläne sollten bereits frühestmöglich angeboten werden, um die User schrittweise an die neue Software heranzuführen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-06",
+    "source": "Original HK2025",
+    "topic": "ECM",
+    "type": "fill_blank",
+    "question": "Enterprise Content Management (ECM) are the [1], methods and tools used to capture, manage, store, preserve, and deliver content and [2] related to [3]. ECM tools and strategies allow the management of an organization's unstructured [4] wherever it exists.",
+    "options": [
+      {
+        "blank": 1,
+        "answer": "strategies"
+      },
+      {
+        "blank": 2,
+        "answer": "documents"
+      },
+      {
+        "blank": 3,
+        "answer": "organizational processes"
+      },
+      {
+        "blank": 4,
+        "answer": "information"
+      }
+    ],
+    "correct": [
+      "strategies",
+      "documents",
+      "organizational processes",
+      "information"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-07",
+    "source": "Original HK2025",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zum Modell von Nonaka und Takeuchi sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wenn Sie Ihre Bachelorarbeit oder Diplomarbeit schreiben, betreiben Sie Externalisation, vor allem, wenn Sie neue Thesen aufstellen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Als Sie sich zu Hause zur Vorbereitung für die Prüfung die Folien durchgelesen haben, betrieben Sie Internalisierung.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Wenn Sie an Ihrer Bachelorarbeit oder Diplomarbeit arbeiten, betreiben Sie Kombination, vor allem, wenn Sie Informationen aus verschiedenen Publikationen mit Ihrem eigenen Wissen kombinieren.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Die Vermittlung von Wissen ohne Umwege über explizite Information nennt man Sozialisierung.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-08",
+    "source": "Original HK2025",
+    "topic": "ERP",
+    "type": "true_false",
+    "question": "Mit einem ERP-System erreichen Sie grundsätzlich keine Wettbewerbsvorteile, weil Sie damit kein Alleinstellungsmerkmal haben. Ausnahmen stellen ERP-Systeme dar, die Branchen Best Practices abbilden.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-09",
+    "source": "Original HK2025",
+    "topic": "Wirtschaftlichkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aspekte müssen bei der Einführung von Informationssystemen von wirtschaftlicher Seite beachtet werden?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schnittstellen in vertikale Richtung sind nicht von Relevanz.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Nur jene Abteilungen des Unternehmens betrachten, in denen die meisten Mitarbeiter mit dem neuen System arbeiten.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Ermitteln von Aufwänden für allfällige Anpassungen und Änderungen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Die betriebswirtschaftlichen Abläufe vollständig abbilden.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Den Mitarbeitern nichts über die Einführungspläne verraten.",
+        "correct": false
+      },
+      {
+        "id": "f",
+        "text": "Beachten der Schnittstellen mit anderen Systemen innen und außen und ggf. Eliminierung selbiger.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "c",
+      "d",
+      "f"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-10",
+    "source": "Original HK2025",
+    "topic": "Open Source",
+    "type": "true_false",
+    "question": "Sie finden ein OpenSource ERP-Produkt im Internet, welches vom Funktionsumfang Ihre Anforderungen abzudecken scheint. Sie haben im Unternehmen keine eigenen Entwickler. Das ERP-Produkt ist seit ca. einem Jahr am Markt, die Community ist schwach und es gibt keinen professionellen Support. Obwohl Ihre Anforderungen scheinbar abgedeckt werden, ist es nicht ratsam dieses ERP-System einzuführen.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-11",
+    "source": "Original HK2025",
+    "topic": "Wirtschaftlichkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aussage(n) über die Wirtschaftlichkeit von Informationssystemen sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mithilfe der ROI-Berechnung wird ermittelt, ob die Investition in ein Informationssystem eine Rendite ergeben hat, d.h. wirtschaftlich war.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Die Nutzwertanalyse wird auf Basis des Product Lifecycle gebildet und analysiert für das Unternehmen wichtige Kriterien jeder Phase.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Die Effizienz eines Informationssystems kann in der Planungs- und Entscheidungsphase durch TEI und Nutzwertanalyse betrachtet werden.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Das generelle Ziel bei der Einführung eines neuen Informationssystems sollte die Optimierung von geschäftskritischen Prozessen sein.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-12",
+    "source": "Original HK2025",
+    "topic": "Make or Buy",
+    "type": "true_false",
+    "question": "Sie sind ein kleines, junges Start-Up in Graz, welches Exit-the-Room Räume anbietet. Ihre beiden Entwickler haben die benötigten Ressourcen und Fähigkeiten, am Markt gibt es keine passende AR-Lösung und die Auslastung ist niedrig. Im Sinne der Make-or-Buy-Matrix ist Make definitiv die richtige Entscheidung.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-13",
+    "source": "Original HK2025",
+    "topic": "Open Source",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu OpenSource sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "OpenSource Lösungen sind gesamtheitlich betrachtet immer billiger als ClosedSource Lösungen.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "OpenSource Lösungen sind gesamtheitlich betrachtet immer teurer als ClosedSource Lösungen.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Wenn hinter einer OpenSource Lösung ein Unternehmen steht, sind trotzdem alle Features des Softwareprodukts unter der OpenSource Lizenz verfügbar.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Bevor man eine OpenSource Lösung einsetzt, sollte überprüft werden ob die Entwicklercommunity aktiv ist und mit der Weiterentwicklung der Lösung zu rechnen ist.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-14",
+    "source": "Original HK2025",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Enterprise Resource Planning sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Enterprise Resource Planning ist nur für die vergangenheitsbezogene Analyse von Unternehmensdaten gedacht.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Enterprise Resource Planning ist ein Konzept.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Enterprise Resource Planning ist für die Verwaltung aller Ressourcen im Unternehmen gedacht.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Enterprise Resource Planning ist auch für die Analyse von Kennzahlen gedacht.",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Enterprise Resource Planning ist grundsätzlich nur für einen Unternehmensbereich gedacht.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-15",
+    "source": "Original HK2025",
+    "topic": "Informationsmanagement",
+    "type": "matching",
+    "question": "Ordnen Sie die Schritte des Information Lifecycle nach dem ersten Schritt Create/Generate (beginnend bei Schritt 2)!",
+    "options": [
+      {
+        "left": "Collect",
+        "right": "Schritt 2"
+      },
+      {
+        "left": "Record/Store",
+        "right": "Schritt 3"
+      },
+      {
+        "left": "Process",
+        "right": "Schritt 4"
+      },
+      {
+        "left": "Distribute/Transmit",
+        "right": "Schritt 5"
+      },
+      {
+        "left": "Consume/Use",
+        "right": "Schritt 6"
+      },
+      {
+        "left": "Recycle/Erase",
+        "right": "Schritt 7"
+      }
+    ],
+    "correct": {
+      "Collect": "Schritt 2",
+      "Record/Store": "Schritt 3",
+      "Process": "Schritt 4",
+      "Distribute/Transmit": "Schritt 5",
+      "Consume/Use": "Schritt 6",
+      "Recycle/Erase": "Schritt 7"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-16",
+    "source": "Original HK2025",
+    "topic": "Open Source",
+    "type": "true_false",
+    "question": "Ein Closed-Source-Projekt ist die Bezeichnung für ein abgeschlossenes Software-Projekt, welches ursprünglich Open-Source war, jedoch hat die Community aufgehört den Code weiterzuentwickeln.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-17",
+    "source": "Original HK2025",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Begriffen im Umfeld von ERP sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ERP Systeme sind grundsätzlich für das gesamte Unternehmen gedacht.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Eine Ressource im Sinne von ERP sind bspw. Bodenschätze, Fähigkeiten und Fertigkeiten von Mitarbeitern sowie Kundendaten.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Es gibt zwei Arten von Planung: Die indikative, die Verhaltensweisen vorschreibt, und die imperative, die Empfehlungen gibt.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Die langfristige Planung, auch strategische Planung genannt, hat mindestens einen Zeithorizont von über vier Jahren, unabhängig von der Branche.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-18",
+    "source": "Original HK2025",
+    "topic": "Informationssysteme",
+    "type": "true_false",
+    "question": "Zeichen sind eineindeutig, weil für jedes Zeichen festgelegt ist, was es bedeutet.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-19",
+    "source": "Original HK2025",
+    "topic": "Integration",
+    "type": "matching",
+    "question": "Ordnen Sie die Fragestellungen den Begrifflichkeiten der Dimensionen der Integration nach Mertens zu!",
+    "options": [
+      {
+        "left": "Über wie viele Einzeletappen hinweg findet die Integration statt?",
+        "right": "Reichweite"
+      },
+      {
+        "left": "Welche Prozesse werden mit dem ERP-System unterstützt?",
+        "right": "Gegenstand"
+      },
+      {
+        "left": "Werden einzelne Funktionsbereiche oder einzelne Bearbeitungsstufen integriert?",
+        "right": "Richtung"
+      },
+      {
+        "left": "Wie viele betriebliche Funktionen werden integriert?",
+        "right": "Umfang"
+      }
+    ],
+    "correct": {
+      "Über wie viele Einzeletappen hinweg findet die Integration statt?": "Reichweite",
+      "Welche Prozesse werden mit dem ERP-System unterstützt?": "Gegenstand",
+      "Werden einzelne Funktionsbereiche oder einzelne Bearbeitungsstufen integriert?": "Richtung",
+      "Wie viele betriebliche Funktionen werden integriert?": "Umfang"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-20",
+    "source": "Original HK2025",
+    "topic": "Dokument",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Definition des Begriffs Dokument sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Zeichen, Daten und Informationen sind logistische Objekte die direkt austauschbar sind.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Ein Dokument ist ein als Beweis geltendes Schriftstück.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Bildet man ein logistisches Objekt auf einem Trägermedium ab, entsteht ein Dokument.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Für Dokumente gibt es verschiedene Trägermedien. Auch Internet-Seiten können als Dokumente angesehen werden.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-21",
+    "source": "Original HK2025",
+    "topic": "ERP",
+    "type": "matching",
+    "question": "Ordnen Sie die Aufgabenkategorie eines ERP-Systems der jeweiligen Tätigkeit zu!",
+    "options": [
+      {
+        "left": "Datenhaltung für Geschäftsvorfälle (Aufträge, Avisos, ...)",
+        "right": "Administration"
+      },
+      {
+        "left": "Überblick über Informationen schaffen",
+        "right": "Kennzahlenbildung"
+      },
+      {
+        "left": "Automatisierung von Routinevorgängen - automatische Planung (Absatzmengen, Abfahrten, ...)",
+        "right": "Disposition"
+      },
+      {
+        "left": "Erstellen von Auswertungen",
+        "right": "Kennzahlenanalyse"
+      }
+    ],
+    "correct": {
+      "Datenhaltung für Geschäftsvorfälle (Aufträge, Avisos, ...)": "Administration",
+      "Überblick über Informationen schaffen": "Kennzahlenbildung",
+      "Automatisierung von Routinevorgängen - automatische Planung (Absatzmengen, Abfahrten, ...)": "Disposition",
+      "Erstellen von Auswertungen": "Kennzahlenanalyse"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-22",
+    "source": "Original HK2025",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu den Formen von Content sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schwach strukturierter Content ist Content in standardisierter Form.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Strukturierter Content sind Daten bspw. aus datenbankgestützten Systemen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Schwach strukturierter Content ist beispielsweise ein Video.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Bei unstrukturiertem Content kann der Inhalt nicht so einfach erschlossen werden.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-23",
+    "source": "Original HK2025",
+    "topic": "Informationssysteme",
+    "type": "true_false",
+    "question": "Informationssysteme sind sozio-technische Systeme. Unter diesem Begriff versteht man die Rolle des Menschen des Systemadministrators für die technischen Basiskonzepte (Hardware/Software). Dieser Begriff hat sich etabliert, weil IT-Systeme ohne vorherige Implementierung durch den Menschen nicht lauffähig sind.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-24",
+    "source": "Original HK2025",
+    "topic": "Skalierbarkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Skalierbarkeit von Systemen sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Skalierbarkeit ist oft auch die Bezeichnung für die Erweiterungsmöglichkeit eines Systems.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Ein System skaliert schlecht, wenn bei 4facher Eingabemenge die 2fache Rechnerleistung benötigt wird.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Das Verhalten von Softwaresystemen in Bezug auf den Ressourcenverbrauch bei steigenden Eingabemengen nennt man Skalierbarkeit.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ein System skaliert gut, wenn bei 2facher Eingabemenge die 4fache Rechnerleistung benötigt wird.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-25",
+    "source": "Original HK2025",
+    "topic": "Standardsoftware",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Standard-Software sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Standard-Software ist für spezielle Unternehmensfunktionen gedacht.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "MS Office kann als Standard-Software angesehen werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Die gesamten Kosten für die Einführung einer Standard-Software können höher sein, als die einer entsprechenden Individual-Software.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "SAP kann als Standard-Software angesehen werden.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-26",
+    "source": "Original HK2025",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Was sind typische Fehler in der Auswahlphase für ein ERP-System?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lange Dauer des Auswahlprozesses",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Zu genaue Definition der Anforderungen",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Schlechte Vertragsverhandlungen",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Unartikulierte oder verschwommene Zielsetzungen",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-27",
+    "source": "Original HK2025",
+    "topic": "TCO",
+    "type": "multiple_choice",
+    "question": "Was versteht man unter direkten und indirekten Kosten beim TCO?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Direkte Kosten treten oft an anderer Stelle auf. Ein Zusammenhang mit dem Informationssystem ist nicht sofort ersichtlich.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Indirekte Kosten treten oft an anderer Stelle auf. Ein Zusammenhang mit dem Informationssystem ist nicht sofort ersichtlich.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Direkte Kosten entstehen beim Betrieb des Informationssystems und können direkt damit in Zusammenhang gebracht werden.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Indirekte Kosten entstehen beim Betrieb des Informationssystems und können direkt damit in Zusammenhang gebracht werden.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-28",
+    "source": "Original HK2025",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Umstellungsstrategien bei der ERP Einführung sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bei der schrittweisen Ablösung als Umstellungsstrategie muss das System in Module aufgeteilt sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Bei der teilweisen Ersetzung als Umstellungsstrategie muss das System in Module aufgeteilt sein.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Bei der teilweisen Ersetzung als Umstellungsstrategie werden Teile der Geschäftsobjekte mit dem neuen und Teile mit dem alten System verwaltet.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Bei der schrittweisen Ablösung als Umstellungsstrategie werden Teile der Geschäftsobjekte mit dem neuen und Teile mit dem alten System verwaltet.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-29",
+    "source": "Original HK2025",
+    "topic": "Wissensmanagement",
+    "type": "true_false",
+    "question": "Wissen ist im Unternehmenskontext eine Ressource, wie es auch bspw. MitarbeiterInnen, Materialien und Maschinen sind. Es ist daher möglich Wissen im Unternehmen mittels ERP-System zu managen.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-30",
+    "source": "Original HK2025",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Was zählt im Wissensmanagement-Modell nach Probst et al. zum Inneren Kreislauf?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wissensidentifikation",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Wissensbewertung",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Wissensabbau",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Wissensziele",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-31",
+    "source": "Original HK2025",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Auswahl eines ERP-Systems sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Eine mögliche Fehlerquelle bei der Auswahl ist eine überzogene Erwartungshaltung. Es wird erwartet, dass die ERP-Einführung alle bisherigen Probleme beseitigen kann.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Praxiserfahrungen haben gezeigt, dass bis zu einer Auftragsvergabe im Durchschnitt maximal zwei Monate vergehen.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Systempflege und -wartung sind bei einem ERP-System nicht notwendig, weil dieses in der Regel funktioniert, wenn es eingeführt wurde.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Mitarbeiter aus einzelnen Fachabteilungen müssen im Auswahlprozess nicht involviert sein.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-32",
+    "source": "Original HK2025",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Was ist der Unterschied zwischen Informationssystemen und Anwendungssystemen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es gibt keinen Unterschied. Anwendungssysteme sind Informationssysteme.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Das Anwendungssystem ist das Programm/die Software mit der zugehörigen Hardware und den zugehörigen Daten.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Erst wenn der Mensch das Informationssystem nutzt, die Informationen nutzt, wird es zum Anwendungssystem.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Erst wenn der Mensch das Anwendungssystem nutzt, die Informationen nutzt, wird es zum Informationssystem.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-33",
+    "source": "Original HK2025",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen über die Einführung eines ERP-Systems sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ein Einführungs-Referenzmodell zeigt die einzelnen Schritte auf, die bei der Einführung durchzuführen sind.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "In der Prototypen-Phase der Einführung werden unter anderem Parametertests und Lasttests durchgeführt.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Der Begriff Big-Bang-Umstellungsszenario beschreibt eine Einführung die explosionsartig schief gegangen ist.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Oft scheitert die Einführung, weil im Vorfeld keine Analyse der bestehenden Geschäftsprozesse stattgefunden hat.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-34",
+    "source": "Original HK2025",
+    "topic": "TCO",
+    "type": "matching",
+    "question": "Bestimmen Sie, ob die folgenden Kosten direkt oder indirekt sind!",
+    "options": [
+      {
+        "left": "Anfänglicher Produktivitätsverlust",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Lizenzkosten",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Ungeplante Downtime",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Serviceverträge",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Datenkorrekturen/Datenreparaturen",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Lernen im Arbeitsalltag",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Hardware",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Technischer Support",
+        "right": "DIREKT"
+      }
+    ],
+    "correct": {
+      "Anfänglicher Produktivitätsverlust": "INDIREKT",
+      "Lizenzkosten": "DIREKT",
+      "Ungeplante Downtime": "INDIREKT",
+      "Serviceverträge": "DIREKT",
+      "Datenkorrekturen/Datenreparaturen": "INDIREKT",
+      "Lernen im Arbeitsalltag": "INDIREKT",
+      "Hardware": "DIREKT",
+      "Technischer Support": "DIREKT"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-35",
+    "source": "Original HK2025",
+    "topic": "Auswahl IS",
+    "type": "matching",
+    "question": "Ordnen Sie die Phasen bei der Auswahl eines ERP-Systems nach deren Aufwand (1 höchster Aufwand, 3 niedrigster Aufwand)!",
+    "options": [
+      {
+        "left": "Endauswahl und Entscheidung",
+        "right": "3"
+      },
+      {
+        "left": "Anforderungen spezifizieren",
+        "right": "2"
+      },
+      {
+        "left": "Prozessanalyse",
+        "right": "1"
+      }
+    ],
+    "correct": {
+      "Endauswahl und Entscheidung": "3",
+      "Anforderungen spezifizieren": "2",
+      "Prozessanalyse": "1"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-36",
+    "source": "Original HK2025",
+    "topic": "Wissensmanagement",
+    "type": "true_false",
+    "question": "Wenn Sie Ihre Mitarbeiter verpflichten Ihr Wissen zu externalisieren, ist die Wissensbewahrung in Ihrem Unternehmen gesichert.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-37",
+    "source": "Original HK2025",
+    "topic": "ECM",
+    "type": "true_false",
+    "question": "Information und Wissen ist neben Arbeit, Kapital und natürlichen Ressourcen in unserer heutigen Zeit der vierte Produktionsfaktor geworden. Vor allem in der Dienstleistungsbranche sind Informationen und Wissen entscheidend.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-38",
+    "source": "Original HK2025",
+    "topic": "IT-Footprint",
+    "type": "true_false",
+    "question": "Die Verlagerung des IT-Footprint in Anlehnung an die aktuelle Unternehmensstrategie ermöglicht die Ausrichtung der eigenen IKT-Infrastruktur anhand der folgenden vier Kriterien: Wettbewerbsvorteil, Kostendämmung, Technologiefokus und Business-Service-Fokus. Der Ideale Footprint stellt eine Mischung dieser Kriterien dar; die Entscheidung zur Gestaltung der IKT-Infrastruktur wird entsprechend danach ausgestaltet.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-39",
+    "source": "Original HK2025",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen über Information und Wissen sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es gibt nicht beweisbares Wissen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Damit Daten zu Informationen werden, ist der Einsatz von Wissen notwendig.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Explizites Wissen kann man nicht direkt sprachlich artikulieren.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Information ist nie zeitabhängig.",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Redundante Information kann auch Information sein.",
+        "correct": true
+      },
+      {
+        "id": "f",
+        "text": "Implizites Wissen kann man nicht direkt sprachlich artikulieren.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "e",
+      "f"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "HK2025-40",
+    "source": "Original HK2025",
+    "topic": "Wissensmanagement",
+    "type": "matching",
+    "question": "Ordnen Sie die Punkte der Wissenstreppe nach North zu!",
+    "options": [
+      {
+        "left": "Punkt 1",
+        "right": "Zeichen"
+      },
+      {
+        "left": "Punkt 2",
+        "right": "+ Syntax"
+      },
+      {
+        "left": "Punkt 3",
+        "right": "Daten"
+      },
+      {
+        "left": "Punkt 4",
+        "right": "+ Semantik"
+      },
+      {
+        "left": "Punkt 5",
+        "right": "Information"
+      },
+      {
+        "left": "Punkt 6",
+        "right": "+ Vernetzung"
+      },
+      {
+        "left": "Punkt 7",
+        "right": "Wissen"
+      },
+      {
+        "left": "Punkt 8",
+        "right": "+ Anwendung, Motivation"
+      },
+      {
+        "left": "Punkt 9",
+        "right": "Handeln"
+      },
+      {
+        "left": "Punkt 10",
+        "right": "+ richtig handeln"
+      },
+      {
+        "left": "Punkt 11",
+        "right": "Kompetenz (Können)"
+      },
+      {
+        "left": "Punkt 12",
+        "right": "+ Einzigartigkeit"
+      },
+      {
+        "left": "Punkt 13",
+        "right": "Wettbewerbsfähigkeit"
+      },
+      {
+        "left": "Punkt 14",
+        "right": "strategisches Wissensmanagement"
+      },
+      {
+        "left": "Punkt 15",
+        "right": "operatives Wissensmanagement"
+      }
+    ],
+    "correct": {
+      "Punkt 1": "Zeichen",
+      "Punkt 2": "+ Syntax",
+      "Punkt 3": "Daten",
+      "Punkt 4": "+ Semantik",
+      "Punkt 5": "Information",
+      "Punkt 6": "+ Vernetzung",
+      "Punkt 7": "Wissen",
+      "Punkt 8": "+ Anwendung, Motivation",
+      "Punkt 9": "Handeln",
+      "Punkt 10": "+ richtig handeln",
+      "Punkt 11": "Kompetenz (Können)",
+      "Punkt 12": "+ Einzigartigkeit",
+      "Punkt 13": "Wettbewerbsfähigkeit",
+      "Punkt 14": "strategisches Wissensmanagement",
+      "Punkt 15": "operatives Wissensmanagement"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-001",
+    "source": "Erweitert",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Welche Bestandteile gehören typischerweise zu einem Anwendungssystem?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Software",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Hardware",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Daten",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Der Mensch als Nutzer mit konkreter Informationsverwendung",
+        "correct": false
+      },
+      {
+        "id": "e",
+        "text": "Ausschließlich Geschäftsstrategie",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "Das Anwendungssystem ist die technische Seite. Erst mit Nutzung durch Menschen im organisatorischen Kontext wird daraus ein Informationssystem.",
+    "tags": []
+  },
+  {
+    "id": "EXT-002",
+    "source": "Erweitert",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Unterscheidung von Anwendungssystem und Informationssystem sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ein Anwendungssystem kann Teil eines Informationssystems sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Ein Informationssystem umfasst neben Technik auch Menschen, Aufgaben und Organisation.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Ein Informationssystem besteht ausschließlich aus Software.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Der Nutzungskontext ist für das Informationssystem wesentlich.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-003",
+    "source": "Erweitert",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Welche Systemart passt am besten zum operativen Management?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Online Transaction Processing System",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Decision Support System",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Executive Information System",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Wissensstafette",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-004",
+    "source": "Erweitert",
+    "topic": "Informationssysteme",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Entscheidungsebene sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Operative Entscheidungen sind häufig strukturierter als strategische Entscheidungen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Strategische Entscheidungen sind oft unstrukturiert und langfristig ausgerichtet.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Je höher die Ebene, desto stärker dominiert OLTP.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "BI und DSS unterstützen eher taktische und strategische Auswertungen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-005",
+    "source": "Erweitert",
+    "topic": "Integration",
+    "type": "multiple_choice",
+    "question": "Welche Beispiele zeigen eher vertikale Integration?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Produktionsdaten werden verdichtet und an das Controlling bzw. Management weitergegeben.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Vertrieb, Produktion und Beschaffung werden entlang eines Auftragsprozesses verbunden.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Operative Daten werden zu Kennzahlen für höhere Managementebenen verdichtet.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Rechnungswesen und Controlling werden auf derselben Bearbeitungsebene verbunden.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-006",
+    "source": "Erweitert",
+    "topic": "Integration",
+    "type": "multiple_choice",
+    "question": "Welche Beispiele zeigen eher horizontale Integration?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ein Kundenauftrag löst automatisch Beschaffung, Produktion, Versand und Rechnung aus.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Ein Bericht aus der Produktion wird an das Top-Management verdichtet.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Vertrieb und Lager greifen auf denselben Auftragsstatus zu.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ein Dashboard fasst operative Kennzahlen für die Geschäftsführung zusammen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-007",
+    "source": "Erweitert",
+    "topic": "Skalierbarkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen beschreiben gute Skalierbarkeit?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bei steigender Eingabemenge wächst der Ressourcenverbrauch nur proportional oder unterproportional.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Das System kann durch zusätzliche Ressourcen erweitert werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Bei jeder Verdoppelung der Datenmenge vervierfacht sich zwingend die Laufzeit.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Skalierbarkeit kann sowohl Leistung als auch Erweiterbarkeit betreffen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-008",
+    "source": "Erweitert",
+    "topic": "Informationsmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Tätigkeiten sind Information Retrieval?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Recherche in Datenbanken",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Suchmaschinenabfrage",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Erstellen eines neuen Blogartikels",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Crawling von Webseiten",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-009",
+    "source": "Erweitert",
+    "topic": "Informationsmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Tätigkeiten sind Information Creation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aufnahme eines Fotos",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Schreiben einer E-Mail",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Literaturrecherche",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Verfassen einer Website-News",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-010",
+    "source": "Erweitert",
+    "topic": "Informationsmanagement",
+    "type": "matching",
+    "question": "Ordnen Sie die Schritte des Information Lifecycle.",
+    "options": [
+      {
+        "left": "1",
+        "right": "Create/Generate"
+      },
+      {
+        "left": "2",
+        "right": "Collect"
+      },
+      {
+        "left": "3",
+        "right": "Record/Store"
+      },
+      {
+        "left": "4",
+        "right": "Process"
+      },
+      {
+        "left": "5",
+        "right": "Distribute/Transmit"
+      },
+      {
+        "left": "6",
+        "right": "Consume/Use"
+      },
+      {
+        "left": "7",
+        "right": "Recycle/Erase"
+      }
+    ],
+    "correct": {
+      "1": "Create/Generate",
+      "2": "Collect",
+      "3": "Record/Store",
+      "4": "Process",
+      "5": "Distribute/Transmit",
+      "6": "Consume/Use",
+      "7": "Recycle/Erase"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-011",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu ERP-Systemen sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ERP-Systeme sollen Ressourcen und Prozesse unternehmensweit unterstützen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ERP-Systeme sind grundsätzlich nur für eine einzelne Abteilung gedacht.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "ERP-Systeme können operative Datenhaltung und Auswertungen unterstützen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ERP-Systeme ersetzen automatisch jede Prozessanalyse.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-012",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Ressourcen können im ERP-Kontext relevant sein?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Materialien",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Mitarbeiterfähigkeiten",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Kundendaten",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Maschinen",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Nur Bargeldbestände",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-013",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "matching",
+    "question": "Ordnen Sie MRP, MRP II und ERP zu.",
+    "options": [
+      {
+        "left": "MRP",
+        "right": "Material Requirement Planning / Materialbedarfsplanung"
+      },
+      {
+        "left": "MRP II",
+        "right": "Manufacturing Resources Planning / Ressourcenplanung im Fertigungsunternehmen"
+      },
+      {
+        "left": "ERP",
+        "right": "Enterprise Resource Planning / ganzheitliche Unternehmensressourcenplanung"
+      }
+    ],
+    "correct": {
+      "MRP": "Material Requirement Planning / Materialbedarfsplanung",
+      "MRP II": "Manufacturing Resources Planning / Ressourcenplanung im Fertigungsunternehmen",
+      "ERP": "Enterprise Resource Planning / ganzheitliche Unternehmensressourcenplanung"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-014",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussage beschreibt den Hauptunterschied zwischen MRP und ERP am besten?",
+    "options": [
+      {
+        "id": "a",
+        "text": "MRP ist stärker auf Materialbedarf fokussiert, ERP auf unternehmensweite Ressourcen und Prozesse.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ERP ist ausschließlich für die Materialbedarfsplanung zuständig.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "MRP ist moderner als ERP.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "ERP hat keinen Bezug zu Planung.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-015",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aufgaben können ERP-Systeme typischerweise unterstützen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Datenhaltung für Geschäftsvorfälle",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Automatisierte Planung von Routinevorgängen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Kennzahlenbildung und Auswertungen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Rechtlich garantierte Erfolgssicherung jedes Projekts",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-016",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "matching",
+    "question": "Ordnen Sie die ERP-Aufgabenkategorie zu.",
+    "options": [
+      {
+        "left": "Datenhaltung für Aufträge und Avisos",
+        "right": "Administration"
+      },
+      {
+        "left": "Automatische Planung von Abfahrten",
+        "right": "Disposition"
+      },
+      {
+        "left": "Überblick über Informationen schaffen",
+        "right": "Kennzahlenbildung"
+      },
+      {
+        "left": "Auswertungen erstellen",
+        "right": "Kennzahlenanalyse"
+      }
+    ],
+    "correct": {
+      "Datenhaltung für Aufträge und Avisos": "Administration",
+      "Automatische Planung von Abfahrten": "Disposition",
+      "Überblick über Informationen schaffen": "Kennzahlenbildung",
+      "Auswertungen erstellen": "Kennzahlenanalyse"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-017",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Wann kann ein ERP-System eher einen Wettbewerbsvorteil unterstützen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wenn es nur standardmäßig eingeführt wird und alle Prozesse unverändert bleiben.",
+        "correct": false
+      },
+      {
+        "id": "b",
+        "text": "Wenn Prozesse, Datenqualität und Auswertungen besser als bei Wettbewerbern genutzt werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Wenn es branchenspezifische Best Practices sinnvoll abbildet.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Wenn keinerlei Schulung notwendig ist.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-018",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu ERP und Kennzahlen sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ERP-Daten können Grundlage für Kennzahlenanalyse sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ERP-Systeme sind nie für Auswertungen geeignet.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Kennzahlen setzen brauchbare Datenqualität voraus.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ERP-Systeme können operative Geschäftsvorfälle und Auswertungen verbinden.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-019",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "multiple_choice",
+    "question": "Welche Aussage zur Planung im ERP-Umfeld ist richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Strategische Planung ist langfristiger als operative Planung.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Jede Branche hat zwingend denselben Planungshorizont.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Operative Planung befasst sich oft mit kurzfristigen Abläufen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Planung ist für ERP-Systeme irrelevant.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-020",
+    "source": "Erweitert",
+    "topic": "ERP",
+    "type": "true_false",
+    "question": "Ein ERP-System ist automatisch ein Wissensmanagementsystem, weil Wissen eine Ressource ist.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "ERP verwaltet vor allem betriebliche Ressourcen und Prozesse. Wissensmanagement benötigt eigene Methoden, Kultur und Prozesse.",
+    "tags": []
+  },
+  {
+    "id": "EXT-021",
+    "source": "Erweitert",
+    "topic": "Standardsoftware",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Standardsoftware sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sie wird für allgemeine Anforderungen vieler Unternehmen entwickelt.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Sie kann durch Customizing angepasst werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Sie ist immer günstiger als Individualsoftware, wenn man TCO betrachtet.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Beispiele können Office, SAP oder Browser sein.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-022",
+    "source": "Erweitert",
+    "topic": "Individualsoftware",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Individualsoftware sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sie wird speziell für konkrete Anforderungen entwickelt.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Sie kann Wettbewerbsvorteile ermöglichen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Sie wird definitionsgemäß immer intern durch eigene Mitarbeiter entwickelt.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Sie kann hohe Wartungsabhängigkeiten verursachen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-023",
+    "source": "Erweitert",
+    "topic": "Standardsoftware",
+    "type": "multiple_choice",
+    "question": "Welche Risiken entstehen, wenn Standardsoftware stark angepasst wird?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Updates können schwieriger werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Customizing kann Aufwand und Kosten erhöhen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Die Software wird automatisch Open Source.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Abhängigkeiten zum Hersteller oder Dienstleister können entstehen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-024",
+    "source": "Erweitert",
+    "topic": "Open Source",
+    "type": "multiple_choice",
+    "question": "Welche Punkte sollte man vor dem Einsatz einer Open-Source-Lösung prüfen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Aktivität der Community",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Professioneller Support oder Wartungsmöglichkeiten",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Lizenzbedingungen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ob sie automatisch kostenlos im Betrieb ist",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-025",
+    "source": "Erweitert",
+    "topic": "Open Source",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen sind falsch?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Open Source ist gesamtheitlich immer billiger.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Open Source ist gesamtheitlich immer teurer.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Open Source kann trotzdem Integrations- und Supportkosten verursachen.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Open Source kann durch Unternehmen mit kommerziellen Zusatzleistungen angeboten werden.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-026",
+    "source": "Erweitert",
+    "topic": "Open Source",
+    "type": "true_false",
+    "question": "Eine Open-Source-Lösung ohne aktive Community, ohne internen Entwickler und ohne professionellen Support sollte trotz passender Funktionen kritisch bewertet werden.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-027",
+    "source": "Erweitert",
+    "topic": "Make or Buy",
+    "type": "multiple_choice",
+    "question": "Wann spricht die Make-or-Buy-Matrix eher für Make?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hohe strategische Bedeutung und hohe Eigenkompetenz",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Niedrige strategische Bedeutung und geringe Eigenkompetenz",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Eigene Ressourcen sind verfügbar und die Lösung ist differenzierend",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Es gibt eine perfekte Standardlösung am Markt und keine strategische Bedeutung",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-028",
+    "source": "Erweitert",
+    "topic": "Make or Buy",
+    "type": "multiple_choice",
+    "question": "Wann spricht die Make-or-Buy-Matrix eher für Buy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Geringe strategische Bedeutung und geringe Eigenkompetenz",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Standardisierte Aufgabe ohne Differenzierungspotenzial",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Hohe strategische Bedeutung und einzigartige interne Kompetenz",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Wenn ein externer Anbieter nachweislich besser und wirtschaftlicher liefern kann",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-029",
+    "source": "Erweitert",
+    "topic": "IT-Footprint",
+    "type": "multiple_choice",
+    "question": "Welche vier Dimensionen gehören zum IT-Footprint-Modell aus den Unterlagen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wettbewerbsvorteil",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Kostendämmung",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Technologiefokus",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Business-Service-Fokus",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Bilanzgewinn",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-030",
+    "source": "Erweitert",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Kriterien können für die Anbieter-Vorselektion sinnvoll sein?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Marktposition",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Funktionsumfang",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Benutzerergonomie",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "TCO",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Nur die Farbe des Logos",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-031",
+    "source": "Erweitert",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Warum braucht die Auswahl eines ERP-/IS-Systems ausreichend Ressourcen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Die Entscheidung hat oft langfristige Konsequenzen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Einführung und Betrieb verursachen hohe Kosten.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Systempflege und Wartung sind notwendig.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Die Anbieterbeziehung ist völlig irrelevant.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-032",
+    "source": "Erweitert",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur Zieldefinition in der Auswahlphase sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ziele sollten messbar formuliert werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Unklare Ziele erschweren die Anbieterbewertung.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "SMARTe Ziele helfen bei der späteren Erfolgskontrolle.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Eine Zieldefinition ist erst nach Vertragsabschluss notwendig.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-033",
+    "source": "Erweitert",
+    "topic": "Auswahl IS",
+    "type": "multiple_choice",
+    "question": "Welche Fehlerquellen treten häufig in der Auswahlphase auf?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Überzogene Erwartungshaltung",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Unartikulierte Zielsetzungen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Fehlende Bewertungskriterien",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Vollständige Prozessanalyse",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-034",
+    "source": "Erweitert",
+    "topic": "Risiken IS",
+    "type": "multiple_choice",
+    "question": "Welche Risiken zählen zu typischen Projektrisiken bei der IS-Auswahl oder Einführung?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Organisatorische Risiken",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Terminliche Risiken",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Psychologische Risiken",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Jahresabschlussrisiken als Standardkategorie",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-035",
+    "source": "Erweitert",
+    "topic": "Risiken IS",
+    "type": "multiple_choice",
+    "question": "Welches Beispiel passt zu einem organisatorischen Risiko?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es gibt keinen Verantwortlichen für die spätere Systemadministration.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Mitarbeiter lehnen neue Arbeitsweisen emotional ab.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Ein Server fällt wegen Stromausfall aus.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Der Prozess im System passt nicht zum tatsächlichen Geschäftsprozess.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-036",
+    "source": "Erweitert",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Personen sollten im internen Projektteam vertreten sein?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Betroffene Fachabteilungen",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "IT-Abteilung",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Unternehmensleitung",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ausschließlich externe Berater",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-037",
+    "source": "Erweitert",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Was gehört zur Feinspezifikation eines Standardsystems?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Parametrisierung",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Abbildung der Organisationsstruktur",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Definition von Schnittstellen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Abschaffung aller Stammdaten",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-038",
+    "source": "Erweitert",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Was wird in der Prototyp-Phase geprüft?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Systemparameter unter realitätsnahen Bedingungen",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Übernahme von Bestandsdaten",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Parametertests und Lasttests",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Ob man auf Schulungen vollständig verzichten kann",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-039",
+    "source": "Erweitert",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zum Big-Bang sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das Altsystem wird zu einem Stichtag vollständig abgelöst.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Es entstehen keine langen Doppelgleisigkeiten.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Das Risiko bei der Umstellung ist hoch.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Big-Bang bedeutet, dass das Projekt bereits gescheitert ist.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-040",
+    "source": "Erweitert",
+    "topic": "Einführung IS",
+    "type": "multiple_choice",
+    "question": "Warum scheitern IT-Projekte häufig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Mangelhaftes Projektmanagement",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Verabsäumte Prozessänderungen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Unklare Zieldefinition und unrealistische Kostenerwartungen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Zu starke Beteiligung der Fachabteilungen",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-041",
+    "source": "Erweitert",
+    "topic": "Wirtschaftlichkeit",
+    "type": "multiple_choice",
+    "question": "Welche Aspekte sind bereits bei der wirtschaftlichen Auswahl eines IS zu beachten?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Infrastruktur",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Lizenzen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Schnittstellen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Support",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Prozessoptimierungen",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-042",
+    "source": "Erweitert",
+    "topic": "Wirtschaftlichkeit",
+    "type": "multiple_choice",
+    "question": "Welche Faktoren können die Wirtschaftlichkeit eines IS beeinflussen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Abbildung betriebswirtschaftlicher Abläufe",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Transparenz operativer Kennzahlen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Anzahl und Qualität der Schnittstellen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Akzeptanz des Systems in der Organisation",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-043",
+    "source": "Erweitert",
+    "topic": "TCO",
+    "type": "multiple_choice",
+    "question": "Welche Kosten gehören typischerweise in eine TCO-Betrachtung?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Softwarelizenzkosten",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Hardwarekosten",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Schulungen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Wartung und Support",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Downtime und Produktivitätsverluste",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-044",
+    "source": "Erweitert",
+    "topic": "TCO",
+    "type": "matching",
+    "question": "Ordnen Sie direkt oder indirekt zu.",
+    "options": [
+      {
+        "left": "Stromkosten für Serverbetrieb",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Lizenzgebühren",
+        "right": "DIREKT"
+      },
+      {
+        "left": "Produktivitätsverlust während der Umstellung",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Fehlersuche durch Endanwender statt Facharbeit",
+        "right": "INDIREKT"
+      },
+      {
+        "left": "Hardwareanschaffung",
+        "right": "DIREKT"
+      }
+    ],
+    "correct": {
+      "Stromkosten für Serverbetrieb": "DIREKT",
+      "Lizenzgebühren": "DIREKT",
+      "Produktivitätsverlust während der Umstellung": "INDIREKT",
+      "Fehlersuche durch Endanwender statt Facharbeit": "INDIREKT",
+      "Hardwareanschaffung": "DIREKT"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-045",
+    "source": "Erweitert",
+    "topic": "TCO",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu TCO sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "TCO betrachtet Kosten über die Nutzungsdauer.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "TCO ist nur der Kaufpreis der Software.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "TCO ist ein Planungswerkzeug.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Es gibt verschiedene TCO-Modelle.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-046",
+    "source": "Erweitert",
+    "topic": "TEI",
+    "type": "multiple_choice",
+    "question": "Welche Bestandteile gehören zum TEI?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Kosten",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Nutzen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Risiko",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Flexibilität",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Nur Umsatz",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-047",
+    "source": "Erweitert",
+    "topic": "TEI",
+    "type": "multiple_choice",
+    "question": "Welche Aussage beschreibt den Unterschied zwischen TCO und TEI am besten?",
+    "options": [
+      {
+        "id": "a",
+        "text": "TCO betrachtet nur die Kostenseite, TEI stellt Kosten auch Nutzen, Risiko und Flexibilität gegenüber.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "TEI betrachtet ausschließlich Lizenzkosten.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "TCO und TEI sind identisch.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "TEI darf in Entscheidungen nicht verwendet werden.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-048",
+    "source": "Erweitert",
+    "topic": "Nutzwertanalyse",
+    "type": "multiple_choice",
+    "question": "Welche Schritte gehören zur Nutzwertanalyse?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bewertungskriterien bestimmen",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Bewertungskriterien gewichten",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Bewertungsobjekte bestimmen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Bewertung durchführen",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Immer automatisch das billigste System wählen",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-049",
+    "source": "Erweitert",
+    "topic": "ROI",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zur ROI-Berechnung bei IS sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ROI setzt Erfolg bzw. Nutzen in Relation zu Investitionskosten.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Man sollte einfach den gesamten Unternehmensumsatz als Erfolg verwenden.",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "Nur dem System zurechenbare Ergebnisanteile sollten berücksichtigt werden.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ROI zeigt, ob eine Investition Rendite erzeugt hat.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-050",
+    "source": "Erweitert",
+    "topic": "Wirtschaftlichkeit",
+    "type": "true_false",
+    "question": "Für den Vorher-Nachher-Vergleich einer IS-Investition sind operative Vergleichswerte und Transparenz wichtig.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": true
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": false
+      }
+    ],
+    "correct": "true",
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-051",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Kernfunktionen gehören zur ECM-Definition?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Capture",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Manage",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Store",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Preserve",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Deliver",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-052",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Ziele verfolgt ECM?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Dokumentenredundanz vermeiden",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Einheitlichen Zugriff regeln",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Informationen unabhängig von Quelle bereitstellen",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Informationen absichtlich schwer auffindbar machen",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-053",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Elemente kann ein Dokument enthalten?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Inhalt",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Struktur",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Layout",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Nur Papier",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-054",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Content sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Content kann strukturierte, schwach strukturierte oder unstrukturierte Information sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Content besteht oft aus Inhalt und Metainformationen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Content ist zwingend nur Papier.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Metadaten können der Verwaltung und Kontrolle dienen.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-055",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Beispiele sind unstrukturierter Content?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Video",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Bild",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Audiodatei/Sprache",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Formatierter Datensatz in einer Datenbank",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-056",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zum ECM-Portal sind richtig?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es kann eine browserbasierte personalisierte Oberfläche sein.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Es ermöglicht Zugriff auf Informationen aus unterschiedlichen Quellen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Es ersetzt automatisch jede Prozessanalyse.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Es kann interne und externe Quellen einbinden.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-057",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Compliance im ECM sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ECM kann durch sichere Speicherung unterstützen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ECM kann Nachvollziehbarkeit von Transaktionen unterstützen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ECM kann prozessbegleitende Dokumentation ermöglichen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Compliance bedeutet, dass keine Dokumente gespeichert werden dürfen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-058",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Continuity im ECM sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Informationen sollen sicher aufbewahrt werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Unberechtigter Zugriff soll verhindert werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Recovery-Werkzeuge können wichtig sein.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Kontinuität bedeutet, dass Informationen nach der Speicherung nie mehr gefunden werden müssen.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-059",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "multiple_choice",
+    "question": "Welche Anwendungsschwerpunkte gehören zu ECM?",
+    "options": [
+      {
+        "id": "a",
+        "text": "ECM Portal",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "ECM Data/Document Warehouse",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "ECM Knowledge Management",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "ECM Workflow",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "ECM Parkplatzverwaltung als Grundmodul",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-060",
+    "source": "Erweitert",
+    "topic": "ECM",
+    "type": "matching",
+    "question": "Ordnen Sie die fünf C des ECM zu.",
+    "options": [
+      {
+        "left": "Content",
+        "right": "Inhalte erfassen, verwalten, erschließen und bereitstellen"
+      },
+      {
+        "left": "Collaboration",
+        "right": "Zusammenarbeit und Projektarbeit unterstützen"
+      },
+      {
+        "left": "Compliance",
+        "right": "Rechtliche und regulatorische Vorgaben unterstützen"
+      },
+      {
+        "left": "Continuity",
+        "right": "Sichere Aufbewahrung, Zugriffsschutz und Wiederherstellung"
+      },
+      {
+        "left": "Cost",
+        "right": "Kosten und Nutzen der ECM-Infrastruktur betrachten"
+      }
+    ],
+    "correct": {
+      "Content": "Inhalte erfassen, verwalten, erschließen und bereitstellen",
+      "Collaboration": "Zusammenarbeit und Projektarbeit unterstützen",
+      "Compliance": "Rechtliche und regulatorische Vorgaben unterstützen",
+      "Continuity": "Sichere Aufbewahrung, Zugriffsschutz und Wiederherstellung",
+      "Cost": "Kosten und Nutzen der ECM-Infrastruktur betrachten"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-061",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Prozesse gehören zum SECI-Modell?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sozialisation",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Externalisierung",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Kombination",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Internalisierung",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Bilanzierung",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-062",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "matching",
+    "question": "Ordnen Sie die SECI-Prozesse zu.",
+    "options": [
+      {
+        "left": "Implizit zu implizit",
+        "right": "Sozialisation"
+      },
+      {
+        "left": "Implizit zu explizit",
+        "right": "Externalisierung"
+      },
+      {
+        "left": "Explizit zu explizit",
+        "right": "Kombination"
+      },
+      {
+        "left": "Explizit zu implizit",
+        "right": "Internalisierung"
+      }
+    ],
+    "correct": {
+      "Implizit zu implizit": "Sozialisation",
+      "Implizit zu explizit": "Externalisierung",
+      "Explizit zu explizit": "Kombination",
+      "Explizit zu implizit": "Internalisierung"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-063",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Beispiele passen zur Internalisierung?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Lernen aus Unterlagen und Anwendung in Übungen",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Ein Handbuch lesen und danach den Prozess praktisch durchführen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Erfahrung direkt durch Beobachtung ohne Dokumentation weitergeben",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Explizites Wissen wird persönliches Können",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-064",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Beispiele passen zur Externalisierung?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Ein erfahrener Mitarbeiter erstellt eine Checkliste.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Erfahrungswissen wird in einem Prozessmodell beschrieben.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Jemand liest nur ein Handbuch und übt danach.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Eine Idee wird in einem Konzept dokumentiert.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-065",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Was gehört nach Probst et al. zum inneren Kreislauf?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wissensidentifikation",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Wissenserwerb",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Wissensentwicklung",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Wissensverteilung",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Wissensnutzung",
+        "correct": true
+      },
+      {
+        "id": "f",
+        "text": "Wissensbewahrung",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-066",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Was gehört bei Probst eher zu den steuernden bzw. äußeren Bausteinen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wissensziele",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Wissensbewertung",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Wissensidentifikation",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Wissensverteilung",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-067",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu implizitem Wissen sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es ist häufig persönliches Erfahrungswissen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Es kann oft schwer direkt sprachlich artikuliert werden.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Es ist immer vollständig in Datenbanken gespeichert.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Es zeigt sich oft in Routinen und Können.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-068",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu explizitem Wissen sind korrekt?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Es kann dokumentiert und sprachlich ausgedrückt werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Handbücher und Checklisten sind Beispiele.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Es kann nie gespeichert werden.",
+        "correct": false
+      },
+      {
+        "id": "d",
+        "text": "Es kann Grundlage für Internalisierung sein.",
+        "correct": true
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-069",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "matching",
+    "question": "Ordnen Sie die Wissenstreppe nach North in Grundzügen.",
+    "options": [
+      {
+        "left": "Zeichen + Syntax",
+        "right": "Daten"
+      },
+      {
+        "left": "Daten + Semantik",
+        "right": "Information"
+      },
+      {
+        "left": "Information + Vernetzung",
+        "right": "Wissen"
+      },
+      {
+        "left": "Wissen + Anwendung/Motivation",
+        "right": "Handeln"
+      },
+      {
+        "left": "Richtiges Handeln",
+        "right": "Kompetenz"
+      },
+      {
+        "left": "Kompetenz + Einzigartigkeit",
+        "right": "Wettbewerbsfähigkeit"
+      }
+    ],
+    "correct": {
+      "Zeichen + Syntax": "Daten",
+      "Daten + Semantik": "Information",
+      "Information + Vernetzung": "Wissen",
+      "Wissen + Anwendung/Motivation": "Handeln",
+      "Richtiges Handeln": "Kompetenz",
+      "Kompetenz + Einzigartigkeit": "Wettbewerbsfähigkeit"
+    },
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-070",
+    "source": "Erweitert",
+    "topic": "Wissensmanagement",
+    "type": "true_false",
+    "question": "Wenn ein Unternehmen seine Mitarbeiter zur Externalisierung verpflichtet, ist die Wissensbewahrung automatisch vollständig gesichert.",
+    "options": [
+      {
+        "id": "true",
+        "text": "Wahr",
+        "correct": false
+      },
+      {
+        "id": "false",
+        "text": "Falsch",
+        "correct": true
+      }
+    ],
+    "correct": "false",
+    "explanation": "Externalisierung hilft, garantiert aber noch keine vollständige Wissensbewahrung. Es braucht Prozesse, Qualität, Nutzung, Aktualisierung und Kultur.",
+    "tags": []
+  },
+  {
+    "id": "EXT-071",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein Unternehmen führt ein neues ERP ein, ohne Prozesse vorher zu analysieren. Welche Risiken entstehen besonders?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Das System bildet reale Prozesse schlecht ab.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Spaghetti-Prozesse bleiben bestehen.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Fachabteilungen erkennen keinen Nutzen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Der ROI wird automatisch besser.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-072",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein Anbieter präsentiert nur Standardmodule und kennt die Anforderungen des Unternehmens nicht. Was ist problematisch?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Die Überdeckung zwischen Anforderungen und Standardfunktionen kann kaum bewertet werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Die Vergleichbarkeit mit anderen Anbietern sinkt.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Eine realistische Einschätzung von Zusatzaufwand fehlt.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Das ist ideal, weil Anforderungen erst nach dem Kauf wichtig sind.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-073",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein System hat niedrige Lizenzkosten, verursacht aber hohe Schulungs-, Integrations- und Downtime-Kosten. Welche Methode betrachtet das am besten?",
+    "options": [
+      {
+        "id": "a",
+        "text": "TCO",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Nur Kaufpreisvergleich",
+        "correct": false
+      },
+      {
+        "id": "c",
+        "text": "TEI, wenn zusätzlich Nutzen, Risiko und Flexibilität betrachtet werden",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Gar keine Wirtschaftlichkeitsrechnung",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-074",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein Open-Source-CRM erfüllt funktional fast alles, aber Community und Support sind schwach. Welche Entscheidung ist sinnvoll?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Investitionssicherheit kritisch prüfen.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Support- und Wartungsmöglichkeiten klären.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Lizenz und Weiterentwicklung prüfen.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Sofort einführen, weil Open Source immer kostenlos ist.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-075",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein Unternehmen will Wissen von pensionierenden Mitarbeitern sichern. Welche Maßnahmen passen eher?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Wissensstafette",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Interviews und Storytelling",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Beziehungslandkarte",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Nur neue Hardware kaufen",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-076",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Welche Aussagen zu Schulungen bei der Einführung eines IS sind sinnvoll?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Schulungen sollten möglichst früh geplant werden.",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Schrittweise Heranführung kann indirekte Kosten senken.",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Userakzeptanz ist ein psychologisches Risiko.",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Schulungen sind unnötig, wenn das System modern aussieht.",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-077",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein neues ECM soll Rechnungen, Verträge und Projektunterlagen zentral verwalten. Welche ECM-Ziele sind betroffen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Redundanzen vermeiden",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Einheitliche Zugriffsregelung",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Sichere Speicherung und Nachvollziehbarkeit",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Informationen nur lokal auf einzelnen PCs verstecken",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-078",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Eine Software soll exakt einen einzigartigen Sonderprozess unterstützen, der Wettbewerbsvorteile bringt. Was spricht eher für Individualsoftware?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Sehr spezifische Anforderungen",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Potenzielle Differenzierung",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Gute interne oder externe Entwicklungskompetenz",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Der Prozess ist völlig branchenüblich und nicht strategisch",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-079",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Ein Unternehmen will bei der Systemauswahl drei Anbieter vergleichen. Was sollte es tun?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Muss-/Soll-/Kann-Anforderungen definieren",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Anbieter schriftlich und vergleichbar befragen",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "TCO und Nutzen bewerten",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Sofort den Anbieter wählen, mit dem man früher schon gearbeitet hat",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c"
+    ],
+    "explanation": "",
+    "tags": []
+  },
+  {
+    "id": "EXT-080",
+    "source": "Erweitert",
+    "topic": "Szenario",
+    "type": "multiple_choice",
+    "question": "Welche Kennzahlen können helfen, den Nutzen eines neuen IS nach der Einführung zu beurteilen?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Bearbeitungszeit pro Vorgang",
+        "correct": true
+      },
+      {
+        "id": "b",
+        "text": "Fehlerquote",
+        "correct": true
+      },
+      {
+        "id": "c",
+        "text": "Anzahl manueller Schritte",
+        "correct": true
+      },
+      {
+        "id": "d",
+        "text": "Userakzeptanz bzw. Nutzungsgrad",
+        "correct": true
+      },
+      {
+        "id": "e",
+        "text": "Nur die Farbe der Benutzeroberfläche",
+        "correct": false
+      }
+    ],
+    "correct": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "explanation": "",
+    "tags": []
+  }
+]

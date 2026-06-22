@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="ISY Quiztrainer für Informationssysteme" />
+  <title>ISY Quiztrainer v3</title>
+  <link rel="stylesheet" href="styles-v3.css?v=3" />
+</head>
+<body>
+  <main class="isy-app-shell">
+    <section class="isy-hero">
+      <div>
+        <p class="isy-eyebrow">Informationssysteme · Quiztrainer v3</p>
+        <h1>ISY Quiztrainer</h1>
+        <p class="isy-hero-text">Interaktiver Fragenkatalog mit Originalfragen und erweiterten Übungsfragen. Antworten werden erst nach dem Prüfen markiert.</p>
+      </div>
+      <div class="isy-hero-stats" aria-label="Statistik">
+        <span id="totalQuestions">160</span>
+        <small>Fragen im Pool</small>
+      </div>
+    </section>
+
+    <section class="isy-panel isy-controls" aria-label="Quiz Einstellungen">
+      <label class="isy-field">Quelle
+        <select id="sourceFilter"><option value="all">Alle Quellen</option></select>
+      </label>
+      <label class="isy-field">Thema
+        <select id="topicFilter"><option value="all">Alle Themen</option></select>
+      </label>
+      <label class="isy-field">Anzahl
+        <input id="countInput" type="number" min="1" value="20" />
+      </label>
+      <label class="isy-field">Modus
+        <select id="modeSelect">
+          <option value="random">Zufällige Reihenfolge</option>
+          <option value="ordered">Nach Fragen-ID</option>
+        </select>
+      </label>
+      <div class="isy-button-row">
+        <button id="startBtn" type="button">Quiz starten</button>
+        <button id="showAllBtn" type="button" class="isy-secondary">Alle Fragen laden</button>
+        <button id="resetBtn" type="button" class="isy-ghost">Zurücksetzen</button>
+      </div>
+    </section>
+
+    <section id="statusPanel" class="isy-status-grid" aria-live="polite">
+      <div class="isy-status-card"><strong id="shownCount">0</strong><span>geladen</span></div>
+      <div class="isy-status-card"><strong id="answeredCount">0</strong><span>beantwortet</span></div>
+      <div class="isy-status-card"><strong id="scoreCount">–</strong><span>richtig</span></div>
+      <div class="isy-status-card"><strong id="percentCount">–</strong><span>Quote</span></div>
+    </section>
+
+    <section class="isy-panel isy-actions" id="quizActions" hidden>
+      <div>
+        <strong>Quiz läuft</strong>
+        <p>Wähle deine Antworten aus. Danach kannst du einzelne Fragen prüfen oder das gesamte Quiz auswerten.</p>
+      </div>
+      <div class="isy-button-row">
+        <button id="gradeBtn" type="button">Quiz auswerten</button>
+        <button id="solutionBtn" type="button" class="isy-secondary">Lösungen anzeigen</button>
+      </div>
+    </section>
+
+    <section id="quiz" class="isy-quiz-list"></section>
+  </main>
+
+  <script src="src/questions.js?v=3"></script>
+  <script src="app-v3.js?v=3"></script>
+</body>
+</html>
