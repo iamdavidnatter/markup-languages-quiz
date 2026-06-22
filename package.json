@@ -1,0 +1,9 @@
+{
+  "name": "isy-fragenkatalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ISY Fragenkatalog mit Original- und Erweiterungsfragen",
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  }
+}

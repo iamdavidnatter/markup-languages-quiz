@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ISY Fragenkatalog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>ISY Fragenkatalog</h1>
+      <p>Originalfragen + erweiterter Fragenpool für die Klausurvorbereitung.</p>
+    </header>
+    <section class="controls">
+      <label>Quelle
+        <select id="sourceFilter"><option value="all">Alle</option></select>
+      </label>
+      <label>Thema
+        <select id="topicFilter"><option value="all">Alle</option></select>
+      </label>
+      <label>Anzahl
+        <input id="countInput" type="number" min="1" max="160" value="20" />
+      </label>
+      <button id="startBtn">Quiz starten</button>
+      <button id="showAllBtn">Alle Fragen anzeigen</button>
+    </section>
+    <section id="summary" class="summary"></section>
+    <section id="quiz"></section>
+  </main>
+  <script src="src/questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
