@@ -1,9 +1,0 @@
-{
-  "name": "isy-quiztrainer",
-  "version": "2.0.0",
-  "private": true,
-  "description": "Interaktiver ISY Fragenkatalog als statische Website",
-  "scripts": {
-    "start": "python3 -m http.server 5173"
-  }
-}
