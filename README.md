@@ -1,19 +1,21 @@
-# ISY Quiztrainer v3
+# Informationssysteme Quiztrainer
 
-Interaktiver Fragenkatalog für Informationssysteme.
+Klickbare Quiz-App für das Fach **Informationssysteme**.
 
-## Wichtiges Update in v3
+## Inhalt
 
-Diese Version nutzt absichtlich neue Dateinamen:
+- 160 Fragen im Fragenpool
+- Multiple Choice, Wahr/Falsch, Zuordnung und Reihenfolge
+- Lernmodus, Prüfungsmodus, Themenfilter und Fehlertraining
+- Antworten werden erst nach dem Prüfen markiert
+- Richtige Antworten werden grün, falsche gewählte Antworten rot markiert
+- Fehlertraining wird im Browser über `localStorage` gespeichert
 
-- `styles-v3.css`
-- `app-v3.js`
+## Nutzung lokal
 
-Dadurch werden alte Browser-/Render-Caches umgangen.
+Einfach `index.html` im Browser öffnen.
 
 ## Render-Konfiguration
-
-Wenn `index.html` direkt im Root des Repositories liegt:
 
 ```text
 Build Command: echo "No build needed"
@@ -21,20 +23,8 @@ Publish Directory: .
 Root Directory: leer lassen
 ```
 
-Wenn der gesamte Ordner `isy_fragenkatalog_github_v3` ins Repository hochgeladen wurde:
+Danach bei Render: **Manual Deploy → Clear build cache & deploy**.
 
-```text
-Root Directory: isy_fragenkatalog_github_v3
-Build Command: echo "No build needed"
-Publish Directory: .
-```
+## Dateien
 
-## Prüfen, ob die richtige Version live ist
-
-Oben auf der Seite muss stehen:
-
-```text
-Informationssysteme · Quiztrainer v3
-```
-
-Falls noch `ISY Fragenkatalog` sichtbar ist, ist noch die alte Version deployed oder Render nutzt den falschen Root Directory.
+Die App ist bewusst statisch aufgebaut und benötigt keinen Build-Prozess.
