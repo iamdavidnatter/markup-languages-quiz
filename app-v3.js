@@ -1,467 +1,112 @@
-const sourceFilter = document.getElementById('sourceFilter');
-const topicFilter = document.getElementById('topicFilter');
-const countInput = document.getElementById('countInput');
-const modeSelect = document.getElementById('modeSelect');
-const quiz = document.getElementById('quiz');
-const quizActions = document.getElementById('quizActions');
+// QUESTION_BANK is loaded from src/questions.js
 
-const shownCount = document.getElementById('shownCount');
-const answeredCount = document.getElementById('answeredCount');
-const scoreCount = document.getElementById('scoreCount');
-const percentCount = document.getElementById('percentCount');
-const totalQuestions = document.getElementById('totalQuestions');
+const $ = (id) => document.getElementById(id);
+let session = [], current = 0, answers = {}, checked = {}, mode = 'learn';
+const storageKey = 'isyQuizMistakesV4';
 
-let currentQuestions = [];
-let evaluated = new Set();
-let results = new Map();
-
-function unique(arr) {
-  return [...new Set(arr.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), 'de'));
-}
-
-function byId(a, b) {
-  return String(a.id).localeCompare(String(b.id), 'de', { numeric: true });
-}
-
-function shuffle(arr) {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-function filteredQuestions() {
-  return QUESTION_BANK.filter(q =>
-    (sourceFilter.value === 'all' || q.source === sourceFilter.value) &&
-    (topicFilter.value === 'all' || q.topic === topicFilter.value)
-  );
-}
-
+function shuffle(arr) { return [...arr].sort(() => Math.random() - 0.5); }
+function getMistakes() { try { return JSON.parse(localStorage.getItem(storageKey) || '[]'); } catch { return []; } }
+function setMistakes(ids) { localStorage.setItem(storageKey, JSON.stringify([...new Set(ids)])); }
+function percent() { const answered = Object.keys(checked).length; const score = session.filter(q => checked[q.id]?.correct).length; return answered ? Math.round(score/answered*100) : 0; }
 function populateFilters() {
-  totalQuestions.textContent = QUESTION_BANK.length;
-  unique(QUESTION_BANK.map(q => q.source)).forEach(source => {
-    sourceFilter.add(new Option(source, source));
-  });
-  unique(QUESTION_BANK.map(q => q.topic)).forEach(topic => {
-    topicFilter.add(new Option(topic, topic));
-  });
-  countInput.max = QUESTION_BANK.length;
+  $('heroTotal').textContent = QUESTION_BANK.length;
+  const topics = [...new Set(QUESTION_BANK.map(q => q.topic))].sort();
+  const sources = [...new Set(QUESTION_BANK.map(q => q.source))].sort();
+  topics.forEach(t => $('topic').insertAdjacentHTML('beforeend', `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`));
+  sources.forEach(s => $('source').insertAdjacentHTML('beforeend', `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`));
 }
-
-function resetEvaluation() {
-  evaluated = new Set();
-  results = new Map();
+function escapeHtml(str) { return String(str).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m])); }
+function startQuiz(all=false, forcedMistakes=false) {
+  mode = forcedMistakes ? 'mistakes' : $('mode').value;
+  let pool = [...QUESTION_BANK];
+  if (mode === 'mistakes' || forcedMistakes) { const ids = getMistakes(); pool = pool.filter(q => ids.includes(q.id)); }
+  const topic = $('topic').value, source = $('source').value;
+  if (topic !== 'all') pool = pool.filter(q => q.topic === topic);
+  if (source !== 'all') pool = pool.filter(q => q.source === source);
+  pool = shuffle(pool);
+  const count = all ? pool.length : Math.max(1, Math.min(Number($('count').value || 20), pool.length));
+  session = pool.slice(0,count); current = 0; answers = {}; checked = {};
+  $('summary').classList.add('hidden'); $('empty').classList.add('hidden'); $('quizArea').classList.remove('hidden');
+  if (!session.length) { $('questionHost').innerHTML = `<section class="question-card"><div class="q-body"><h2>Keine Fragen gefunden.</h2><p>Es gibt keine Fragen für diese Auswahl oder noch keine gespeicherten Fehler.</p></div></section>`; }
+  render();
 }
-
-function loadQuiz(all = false) {
-  resetEvaluation();
-  const pool = filteredQuestions();
-  const ordered = modeSelect.value === 'ordered' ? [...pool].sort(byId) : shuffle(pool);
-  const count = all ? ordered.length : Math.max(1, Math.min(Number(countInput.value) || 20, ordered.length));
-  currentQuestions = ordered.slice(0, count);
-  renderQuiz();
+function render() { updateStats(); renderDots(); if (!session.length) return; renderQuestion(session[current]); }
+function updateStats() {
+  const answered = Object.keys(checked).length; const score = session.filter(q => checked[q.id]?.correct).length;
+  $('statLoaded').textContent = session.length; $('statIndex').textContent = session.length ? `${current+1} / ${session.length}` : '–'; $('statAnswered').textContent = answered; $('statScore').textContent = score; $('statPercent').textContent = percent() + '%';
+  $('progressBar').style.width = session.length ? ((answered/session.length)*100) + '%' : '0%';
+  $('sideInfo').textContent = `${answered} von ${session.length} beantwortet · ${getMistakes().length} Fragen im Fehlertraining`;
 }
-
-function renderQuiz() {
-  quiz.innerHTML = '';
-  if (!currentQuestions.length) {
-    quizActions.hidden = true;
-    quiz.innerHTML = '<div class="empty-state">Keine Fragen für diese Filter gefunden.</div>';
-    updateStatus();
-    return;
-  }
-
-  quizActions.hidden = false;
-  currentQuestions.forEach((q, index) => quiz.appendChild(renderQuestion(q, index)));
-  updateStatus();
+function renderDots() {
+  $('dots').innerHTML = session.map((q,i) => `<button class="dot ${i===current?'current':''} ${checked[q.id]?.correct?'done':''} ${checked[q.id]&&!checked[q.id].correct?'wrong':''}" data-i="${i}">${i+1}</button>`).join('');
+  $('dots').querySelectorAll('.dot').forEach(b => b.onclick = () => { current = Number(b.dataset.i); render(); });
 }
-
-function renderQuestion(q, index) {
-  const card = document.createElement('article');
-  card.className = 'question-card';
-  card.dataset.qid = q.id;
-
-  const meta = document.createElement('div');
-  meta.className = 'meta';
-  [q.id, q.source, q.topic, typeLabel(q.type)].forEach(value => {
-    const pill = document.createElement('span');
-    pill.className = 'pill';
-    pill.textContent = value;
-    meta.appendChild(pill);
-  });
-
-  const questionText = document.createElement('div');
-  questionText.className = 'question-text';
-  questionText.textContent = `${index + 1}. ${q.question}`;
-
-  const body = document.createElement('div');
-  body.className = 'question-body';
-
+function renderQuestion(q) {
+  const isChecked = !!checked[q.id];
+  $('questionHost').innerHTML = `<article class="question-card">
+    <div class="q-head"><div class="badges"><span class="badge">${escapeHtml(q.topic)}</span><span class="badge source">${escapeHtml(q.source)}</span><span class="badge">${escapeHtml(typeLabel(q.type))}</span></div><span class="badge">Frage ${current+1}/${session.length}</span></div>
+    <div class="q-body"><h2 class="q-title">${escapeHtml(q.question)}</h2><div id="answerBox"></div><div id="explanationBox"></div></div>
+    <div class="nav"><button id="prev" class="secondary" ${current===0?'disabled':''}>Zurück</button><div class="actions"><button id="check">Antwort prüfen</button><button id="solution" class="ghost">Lösung anzeigen</button></div><button id="next" class="secondary" ${current===session.length-1?'disabled':''}>Weiter</button></div>
+  </article>`;
+  renderAnswerBox(q, isChecked);
+  $('prev').onclick = () => { if(current>0){ current--; render(); } }; $('next').onclick = () => { if(current<session.length-1){ current++; render(); } };
+  $('check').onclick = () => checkAnswer(q, false); $('solution').onclick = () => checkAnswer(q, true);
+  if (isChecked) showExplanation(q, checked[q.id].showSolution);
+}
+function typeLabel(t) { return t==='multiple_choice'?'Multiple Choice':t==='true_false'?'Wahr/Falsch':t==='ordering'?'Reihenfolge':'Zuordnung'; }
+function renderAnswerBox(q, isChecked) {
+  const saved = answers[q.id];
   if (q.type === 'multiple_choice' || q.type === 'true_false') {
-    body.appendChild(renderChoiceQuestion(q));
+    $('answerBox').innerHTML = `<div class="options">${q.options.map(o => `<button class="option ${saved?.includes(o.id)?'selected':''}" data-id="${o.id}"><span class="letter">${escapeHtml(o.id==='true'?'W':o.id==='false'?'F':o.id)}</span><span>${escapeHtml(o.text)}</span></button>`).join('')}</div>`;
+    $('answerBox').querySelectorAll('.option').forEach(btn => btn.onclick = () => { if (checked[q.id]) return; const id = btn.dataset.id; let arr = answers[q.id] || []; if (q.type === 'true_false') arr = [id]; else arr = arr.includes(id) ? arr.filter(x=>x!==id) : [...arr,id]; answers[q.id] = arr; renderAnswerBox(q,false); });
+  } else if (q.type === 'ordering') {
+    const arr = saved || [];
+    $('answerBox').innerHTML = `<p style="color:var(--muted);">Klicke die Elemente in der richtigen Reihenfolge an.</p><div class="order-list">${q.items.map(item => `<button class="order-item ${arr.includes(item)?'picked':''}" data-item="${escapeHtml(item)}"><span>${escapeHtml(item)}</span><span class="order-num">${arr.includes(item)?arr.indexOf(item)+1:'+'}</span></button>`).join('')}</div><div class="actions" style="margin-top:10px"><button class="secondary" id="resetOrder">Reihenfolge zurücksetzen</button></div>`;
+    $('answerBox').querySelectorAll('.order-item').forEach(btn => btn.onclick = () => { if (checked[q.id]) return; const item=btn.dataset.item; let a=answers[q.id] || []; if(!a.includes(item)) a=[...a,item]; answers[q.id]=a; renderAnswerBox(q,false); });
+    $('resetOrder').onclick = () => { if (checked[q.id]) return; answers[q.id]=[]; renderAnswerBox(q,false); };
   } else if (q.type === 'matching') {
-    body.appendChild(renderMatchingQuestion(q));
-  } else if (q.type === 'fill_blank') {
-    body.appendChild(renderFillBlankQuestion(q));
+    const options = shuffle(q.pairs.map(p=>p.right)); const map = saved || {};
+    $('answerBox').innerHTML = q.pairs.map((p,i)=>`<div class="match-row" data-left="${escapeHtml(p.left)}"><strong>${escapeHtml(p.left)}</strong><select data-left="${escapeHtml(p.left)}"><option value="">Bitte wählen</option>${options.map(o=>`<option value="${escapeHtml(o)}" ${map[p.left]===o?'selected':''}>${escapeHtml(o)}</option>`).join('')}</select></div>`).join('');
+    $('answerBox').querySelectorAll('select').forEach(sel => sel.onchange = () => { if (checked[q.id]) return; const m=answers[q.id]||{}; m[sel.dataset.left]=sel.value; answers[q.id]=m; });
   }
-
-  const footer = document.createElement('div');
-  footer.className = 'card-footer';
-  const checkButton = document.createElement('button');
-  checkButton.type = 'button';
-  checkButton.className = 'secondary';
-  checkButton.textContent = 'Frage prüfen';
-  checkButton.addEventListener('click', () => {
-    evaluateQuestion(q, card, false);
-    updateStatus();
-  });
-  footer.appendChild(checkButton);
-
-  const feedback = document.createElement('div');
-  feedback.className = 'feedback';
-
-  card.append(meta, questionText, body, footer, feedback);
-  card.addEventListener('change', () => {
-    clearEvaluationForQuestion(q.id, card);
-    updateSelectedStyles(card);
-    updateStatus();
-  });
-
-  return card;
+  if (isChecked) markAnswers(q);
 }
-
-function typeLabel(type) {
-  return {
-    multiple_choice: 'Mehrfachauswahl',
-    true_false: 'Wahr/Falsch',
-    matching: 'Zuordnung',
-    fill_blank: 'Lückentext'
-  }[type] || type;
+function checkAnswer(q, showSolution=false) {
+  const correct = isCorrect(q);
+  checked[q.id] = { correct, showSolution };
+  const mistakes = getMistakes();
+  if (!correct) setMistakes([...mistakes, q.id]); else setMistakes(mistakes.filter(id => id !== q.id));
+  markAnswers(q); showExplanation(q, showSolution); updateStats(); renderDots();
 }
-
-function renderChoiceQuestion(q) {
-  const wrapper = document.createElement('div');
-  wrapper.className = 'options';
-  const inputType = q.type === 'true_false' ? 'radio' : 'checkbox';
-
-  q.options.forEach(option => {
-    const label = document.createElement('label');
-    label.className = 'option';
-    label.dataset.optionId = option.id;
-
-    const input = document.createElement('input');
-    input.type = inputType;
-    input.name = `answer-${q.id}`;
-    input.value = option.id;
-
-    const text = document.createElement('span');
-    text.className = 'option-text';
-    const code = document.createElement('span');
-    code.className = 'option-code';
-    code.textContent = option.id.length === 1 ? `${option.id}.` : '';
-    text.append(code, document.createTextNode(option.text));
-
-    label.append(input, text);
-    wrapper.appendChild(label);
-  });
-
-  return wrapper;
-}
-
-function renderMatchingQuestion(q) {
-  const wrapper = document.createElement('div');
-  wrapper.className = 'match-grid';
-  const values = unique(q.options.map(pair => pair.right));
-
-  q.options.forEach(pair => {
-    const row = document.createElement('div');
-    row.className = 'match-row';
-    row.dataset.left = pair.left;
-
-    const left = document.createElement('strong');
-    left.textContent = pair.left;
-
-    const select = document.createElement('select');
-    select.name = `match-${q.id}-${slug(pair.left)}`;
-    select.appendChild(new Option('Bitte auswählen …', ''));
-    values.forEach(value => select.appendChild(new Option(value, value)));
-
-    row.append(left, select);
-    wrapper.appendChild(row);
-  });
-
-  return wrapper;
-}
-
-function renderFillBlankQuestion(q) {
-  const wrapper = document.createElement('div');
-  wrapper.className = 'fill-grid';
-
-  q.options.forEach(item => {
-    const row = document.createElement('label');
-    row.className = 'fill-row';
-
-    const label = document.createElement('strong');
-    label.textContent = `Lücke ${item.blank}`;
-
-    const input = document.createElement('input');
-    input.type = 'text';
-    input.name = `blank-${q.id}-${item.blank}`;
-    input.autocomplete = 'off';
-    input.placeholder = 'Antwort eingeben';
-    input.dataset.blank = item.blank;
-
-    row.append(label, input);
-    wrapper.appendChild(row);
-  });
-
-  return wrapper;
-}
-
-function getCard(qid) {
-  return quiz.querySelector(`[data-qid="${cssEscape(qid)}"]`);
-}
-
-function selectedChoiceIds(card) {
-  return [...card.querySelectorAll('input[type="checkbox"]:checked, input[type="radio"]:checked')].map(input => input.value).sort();
-}
-
-function correctChoiceIds(q) {
-  return q.options.filter(option => option.correct).map(option => option.id).sort();
-}
-
-function getMatchingAnswers(card) {
-  const answers = {};
-  card.querySelectorAll('.match-row').forEach(row => {
-    answers[row.dataset.left] = row.querySelector('select').value;
-  });
-  return answers;
-}
-
-function getFillAnswers(card) {
-  return [...card.querySelectorAll('.fill-row input')].map(input => input.value);
-}
-
-function normalize(value) {
-  return String(value || '')
-    .trim()
-    .toLowerCase()
-    .replace(/\s+/g, ' ')
-    .replace(/[„“”"'`´]/g, '')
-    .replace(/[.,;:!?]+$/g, '');
-}
-
-function arraysEqual(a, b) {
-  return a.length === b.length && a.every((value, index) => value === b[index]);
-}
-
-function evaluateQuestion(q, card = getCard(q.id), revealOnly = false) {
-  if (!card) return false;
-
-  let isCorrect = false;
-
-  if (q.type === 'multiple_choice' || q.type === 'true_false') {
-    const selected = selectedChoiceIds(card);
-    const correct = correctChoiceIds(q);
-    isCorrect = arraysEqual(selected, correct);
-    markChoices(q, card);
-  } else if (q.type === 'matching') {
-    const answers = getMatchingAnswers(card);
-    isCorrect = q.options.every(pair => answers[pair.left] === String(pair.right));
-    markMatching(q, card);
-  } else if (q.type === 'fill_blank') {
-    const answers = getFillAnswers(card);
-    isCorrect = q.options.every((item, index) => normalize(answers[index]) === normalize(item.answer));
-    markFill(q, card);
-  }
-
-  card.classList.toggle('is-correct', isCorrect);
-  card.classList.toggle('is-wrong', !isCorrect);
-  showFeedback(q, card, isCorrect, revealOnly);
-  evaluated.add(q.id);
-  results.set(q.id, isCorrect);
-  return isCorrect;
-}
-
-function markChoices(q, card) {
-  card.querySelectorAll('.option').forEach(label => {
-    const option = q.options.find(item => item.id === label.dataset.optionId);
-    const input = label.querySelector('input');
-    label.classList.remove('is-selected');
-    label.classList.toggle('is-correct', Boolean(option?.correct));
-    label.classList.toggle('is-wrong', input.checked && !option?.correct);
-  });
-}
-
-function markMatching(q, card) {
-  card.querySelectorAll('.match-row').forEach(row => {
-    const pair = q.options.find(item => item.left === row.dataset.left);
-    const value = row.querySelector('select').value;
-    const correct = value === String(pair?.right);
-    row.classList.toggle('is-correct', correct);
-    row.classList.toggle('is-wrong', !correct);
-  });
-}
-
-function markFill(q, card) {
-  card.querySelectorAll('.fill-row input').forEach((input, index) => {
-    const correct = normalize(input.value) === normalize(q.options[index]?.answer);
-    input.classList.toggle('is-correct', correct);
-    input.classList.toggle('is-wrong', !correct);
-  });
-}
-
-function showFeedback(q, card, isCorrect, revealOnly) {
-  const feedback = card.querySelector('.feedback');
-  feedback.innerHTML = '';
-  feedback.classList.add('show');
-
-  const headline = document.createElement('strong');
-  headline.textContent = revealOnly ? 'Lösung angezeigt.' : (isCorrect ? 'Richtig.' : 'Noch nicht richtig.');
-  feedback.appendChild(headline);
-
-  const correctLine = document.createElement('div');
-  correctLine.className = 'correct-answer';
-  correctLine.textContent = `Richtige Lösung: ${formatCorrectAnswer(q)}`;
-  feedback.appendChild(correctLine);
-
-  if (q.explanation) {
-    const explanation = document.createElement('div');
-    explanation.textContent = q.explanation;
-    feedback.appendChild(explanation);
-  }
-}
-
-function formatCorrectAnswer(q) {
-  if (q.type === 'multiple_choice' || q.type === 'true_false') {
-    return q.options.filter(option => option.correct).map(option => {
-      const code = option.id.length === 1 ? `${option.id}. ` : '';
-      return `${code}${option.text}`;
-    }).join(' | ');
-  }
-  if (q.type === 'matching') {
-    return q.options.map(pair => `${pair.left} → ${pair.right}`).join(' | ');
-  }
-  if (q.type === 'fill_blank') {
-    return q.options.map(item => `Lücke ${item.blank}: ${item.answer}`).join(' | ');
-  }
-  return '';
-}
-
-function clearEvaluationForQuestion(qid, card) {
-  if (!evaluated.has(qid)) {
-    updateSelectedStyles(card);
-    return;
-  }
-  evaluated.delete(qid);
-  results.delete(qid);
-  card.classList.remove('is-correct', 'is-wrong');
-  card.querySelectorAll('.is-correct, .is-wrong').forEach(el => el.classList.remove('is-correct', 'is-wrong'));
-  const feedback = card.querySelector('.feedback');
-  feedback.classList.remove('show');
-  feedback.innerHTML = '';
-  updateSelectedStyles(card);
-}
-
-function updateSelectedStyles(card) {
-  card.querySelectorAll('.option').forEach(label => {
-    const input = label.querySelector('input');
-    label.classList.toggle('is-selected', input.checked);
-  });
-}
-
-function isAnswered(q) {
-  const card = getCard(q.id);
-  if (!card) return false;
-  if (q.type === 'multiple_choice' || q.type === 'true_false') {
-    return selectedChoiceIds(card).length > 0;
-  }
-  if (q.type === 'matching') {
-    return [...card.querySelectorAll('.match-row select')].every(select => select.value);
-  }
-  if (q.type === 'fill_blank') {
-    return [...card.querySelectorAll('.fill-row input')].every(input => input.value.trim());
-  }
+function isCorrect(q) {
+  const ans = answers[q.id];
+  if (q.type==='multiple_choice' || q.type==='true_false') { const correct = q.options.filter(o=>o.correct).map(o=>o.id).sort(); const given = (ans||[]).slice().sort(); return JSON.stringify(correct)===JSON.stringify(given); }
+  if (q.type==='ordering') return JSON.stringify(ans||[])===JSON.stringify(q.items);
+  if (q.type==='matching') return q.pairs.every(p => (ans||{})[p.left] === p.right);
   return false;
 }
-
-function updateStatus() {
-  shownCount.textContent = currentQuestions.length;
-  const answered = currentQuestions.filter(isAnswered).length;
-  answeredCount.textContent = answered;
-
-  if (!evaluated.size) {
-    scoreCount.textContent = '–';
-    percentCount.textContent = '–';
-    return;
+function markAnswers(q) {
+  if (q.type==='multiple_choice' || q.type==='true_false') {
+    $('answerBox').querySelectorAll('.option').forEach(btn => { const o = q.options.find(x=>x.id===btn.dataset.id); btn.classList.toggle('correct', !!o.correct); btn.classList.toggle('incorrect', (answers[q.id]||[]).includes(o.id) && !o.correct); });
+  } else if (q.type==='ordering') {
+    const ans=answers[q.id]||[]; $('answerBox').querySelectorAll('.order-item').forEach((btn) => { const item=btn.dataset.item; const pos=ans.indexOf(item); const correctPos=q.items.indexOf(item); if(pos>=0) btn.classList.add(pos===correctPos?'correct':'incorrect'); });
+  } else if (q.type==='matching') {
+    $('answerBox').querySelectorAll('.match-row').forEach(row => { const left=row.dataset.left; const pair=q.pairs.find(p=>p.left===left); const val=(answers[q.id]||{})[left]; row.classList.add(val===pair.right?'correct':'incorrect'); });
   }
-
-  const correct = [...results.values()].filter(Boolean).length;
-  scoreCount.textContent = `${correct}/${evaluated.size}`;
-  percentCount.textContent = `${Math.round((correct / evaluated.size) * 100)}%`;
 }
-
-function revealSolutions() {
-  currentQuestions.forEach(q => {
-    const card = getCard(q.id);
-    if (!card) return;
-
-    if (q.type === 'multiple_choice' || q.type === 'true_false') {
-      card.querySelectorAll('input').forEach(input => {
-        const option = q.options.find(item => item.id === input.value);
-        input.checked = Boolean(option?.correct);
-      });
-    } else if (q.type === 'matching') {
-      card.querySelectorAll('.match-row').forEach(row => {
-        const pair = q.options.find(item => item.left === row.dataset.left);
-        row.querySelector('select').value = pair?.right || '';
-      });
-    } else if (q.type === 'fill_blank') {
-      card.querySelectorAll('.fill-row input').forEach((input, index) => {
-        input.value = q.options[index]?.answer || '';
-      });
-    }
-
-    evaluateQuestion(q, card, true);
-  });
-  updateStatus();
+function showExplanation(q, showSolution=false) {
+  let html = `<div class="explain"><h3>${checked[q.id]?.correct?'✅ Richtig':'❌ Nicht ganz richtig'}</h3><p>${escapeHtml(q.explanation || '')}</p>`;
+  if (q.type==='multiple_choice' || q.type==='true_false') { html += `<div class="explain-list">${q.options.map(o=>`<div class="explain-item ${o.correct?'ok':'bad'}"><strong>${escapeHtml(o.id)}. ${escapeHtml(o.text)}</strong><br>${escapeHtml(o.explanation || (o.correct?'Richtig.':'Falsch.'))}</div>`).join('')}</div>`; }
+  if (q.type==='ordering') html += `<p><strong>Richtige Reihenfolge:</strong> ${q.items.map(escapeHtml).join(' → ')}</p>`;
+  if (q.type==='matching') html += `<div class="explain-list">${q.pairs.map(p=>`<div class="explain-item ok"><strong>${escapeHtml(p.left)}</strong> → ${escapeHtml(p.right)}</div>`).join('')}</div>`;
+  html += `</div>`; $('explanationBox').innerHTML = html;
 }
-
-function resetCurrentQuiz() {
-  resetEvaluation();
-  renderQuiz();
+function finishQuiz() {
+  session.forEach(q => { if(!checked[q.id]) checked[q.id] = { correct:isCorrect(q), showSolution:false }; });
+  const score=session.filter(q=>checked[q.id].correct).length; const wrong=session.filter(q=>!checked[q.id].correct);
+  setMistakes([...getMistakes(), ...wrong.map(q=>q.id)]);
+  $('summary').classList.remove('hidden'); $('summary').innerHTML = `<h2>Auswertung</h2><p><strong>${score} von ${session.length}</strong> richtig · Quote: <strong>${Math.round(score/session.length*100)}%</strong></p>${wrong.length?`<h3>Falsch beantwortete Fragen</h3><ol>${wrong.map(q=>`<li>${escapeHtml(q.question)} <small>(${escapeHtml(q.topic)})</small></li>`).join('')}</ol>`:'<p>Perfekt, keine Fehler 🎉</p>'}<div class="actions"><button onclick="startQuiz(false,true)">Fehlertraining starten</button><button class="secondary" onclick="startQuiz()">Neues Quiz</button></div>`;
+  updateStats(); renderDots();
 }
-
-function slug(value) {
-  return String(value).toLowerCase().replace(/[^a-z0-9]+/gi, '-');
-}
-
-function cssEscape(value) {
-  if (window.CSS && CSS.escape) return CSS.escape(value);
-  return String(value).replace(/"/g, '\\"');
-}
-
-sourceFilter.addEventListener('change', () => {
-  const total = filteredQuestions().length;
-  countInput.max = Math.max(total, 1);
-  if (Number(countInput.value) > total) countInput.value = total || 1;
-});
-topicFilter.addEventListener('change', () => {
-  const total = filteredQuestions().length;
-  countInput.max = Math.max(total, 1);
-  if (Number(countInput.value) > total) countInput.value = total || 1;
-});
-
-document.getElementById('startBtn').addEventListener('click', () => loadQuiz(false));
-document.getElementById('showAllBtn').addEventListener('click', () => loadQuiz(true));
-document.getElementById('resetBtn').addEventListener('click', resetCurrentQuiz);
-document.getElementById('gradeBtn').addEventListener('click', () => {
-  currentQuestions.forEach(q => evaluateQuestion(q));
-  updateStatus();
-});
-document.getElementById('solutionBtn').addEventListener('click', revealSolutions);
-
-populateFilters();
-loadQuiz(false);
+$('start').onclick = () => startQuiz(false,false); $('all').onclick = () => startQuiz(true,false); $('finish').onclick = finishQuiz; $('mistakeBtn').onclick = () => startQuiz(false,true); $('reset').onclick = () => { localStorage.removeItem(storageKey); alert('Fortschritt und Fehlerliste wurden gelöscht.'); updateStats(); };
+populateFilters(); updateStats();
