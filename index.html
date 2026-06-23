@@ -3,69 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="ISY Quiztrainer für Informationssysteme" />
-  <title>ISY Quiztrainer v3</title>
-  <link rel="stylesheet" href="styles-v3.css?v=3" />
+  <title>Informationssysteme Quiztrainer</title>
+  <link rel="stylesheet" href="styles-v3.css?v=4" />
 </head>
 <body>
-  <main class="isy-app-shell">
-    <section class="isy-hero">
+  <div class="app">
+    <section class="hero">
       <div>
-        <p class="isy-eyebrow">Informationssysteme · Quiztrainer v3</p>
-        <h1>ISY Quiztrainer</h1>
-        <p class="isy-hero-text">Interaktiver Fragenkatalog mit Originalfragen und erweiterten Übungsfragen. Antworten werden erst nach dem Prüfen markiert.</p>
+        <p class="eyebrow">Informationssysteme · Quiztrainer</p>
+        <h1>Klickbare ISY Quiz-App</h1>
+        <p>160 geprüfte Fragen mit Lernmodus, Prüfungsmodus, Themenfilter, Fehlertraining und Begründung zu jeder Antwort.</p>
       </div>
-      <div class="isy-hero-stats" aria-label="Statistik">
-        <span id="totalQuestions">160</span>
-        <small>Fragen im Pool</small>
-      </div>
+      <div class="hero-card"><strong id="heroTotal">160</strong><span>Fragen</span></div>
     </section>
 
-    <section class="isy-panel isy-controls" aria-label="Quiz Einstellungen">
-      <label class="isy-field">Quelle
-        <select id="sourceFilter"><option value="all">Alle Quellen</option></select>
-      </label>
-      <label class="isy-field">Thema
-        <select id="topicFilter"><option value="all">Alle Themen</option></select>
-      </label>
-      <label class="isy-field">Anzahl
-        <input id="countInput" type="number" min="1" value="20" />
-      </label>
-      <label class="isy-field">Modus
-        <select id="modeSelect">
-          <option value="random">Zufällige Reihenfolge</option>
-          <option value="ordered">Nach Fragen-ID</option>
-        </select>
-      </label>
-      <div class="isy-button-row">
-        <button id="startBtn" type="button">Quiz starten</button>
-        <button id="showAllBtn" type="button" class="isy-secondary">Alle Fragen laden</button>
-        <button id="resetBtn" type="button" class="isy-ghost">Zurücksetzen</button>
-      </div>
+    <section class="panel controls" aria-label="Quiz Einstellungen">
+      <div class="field"><label for="mode">Modus</label><select id="mode"><option value="learn">Lernmodus: sofort erklären</option><option value="exam">Prüfungsmodus: Auswertung am Ende</option><option value="mistakes">Fehlertraining</option></select></div>
+      <div class="field"><label for="topic">Thema</label><select id="topic"><option value="all">Alle Themen</option></select></div>
+      <div class="field"><label for="source">Quelle</label><select id="source"><option value="all">Alle Quellen</option></select></div>
+      <div class="field"><label for="count">Anzahl Fragen</label><input id="count" type="number" min="1" max="160" value="20"></div>
+      <div class="actions" style="grid-column: 1 / -1;"><button id="start">Quiz starten</button><button id="all" class="secondary">Alle 160 laden</button><button id="reset" class="ghost">Fortschritt löschen</button></div>
     </section>
 
-    <section id="statusPanel" class="isy-status-grid" aria-live="polite">
-      <div class="isy-status-card"><strong id="shownCount">0</strong><span>geladen</span></div>
-      <div class="isy-status-card"><strong id="answeredCount">0</strong><span>beantwortet</span></div>
-      <div class="isy-status-card"><strong id="scoreCount">–</strong><span>richtig</span></div>
-      <div class="isy-status-card"><strong id="percentCount">–</strong><span>Quote</span></div>
+    <section class="stats">
+      <div class="stat"><strong id="statLoaded">0</strong><span>geladen</span></div>
+      <div class="stat"><strong id="statIndex">–</strong><span>aktuelle Frage</span></div>
+      <div class="stat"><strong id="statAnswered">0</strong><span>beantwortet</span></div>
+      <div class="stat"><strong id="statScore">0</strong><span>richtig</span></div>
+      <div class="stat"><strong id="statPercent">0%</strong><span>Quote</span></div>
     </section>
 
-    <section class="isy-panel isy-actions" id="quizActions" hidden>
-      <div>
-        <strong>Quiz läuft</strong>
-        <p>Wähle deine Antworten aus. Danach kannst du einzelne Fragen prüfen oder das gesamte Quiz auswerten.</p>
-      </div>
-      <div class="isy-button-row">
-        <button id="gradeBtn" type="button">Quiz auswerten</button>
-        <button id="solutionBtn" type="button" class="isy-secondary">Lösungen anzeigen</button>
-      </div>
+    <section id="empty" class="panel"><strong>Bereit.</strong><p>Wähle Modus, Thema und Anzahl. Danach auf <b>Quiz starten</b> klicken.</p></section>
+
+    <section id="quizArea" class="quiz-layout hidden">
+      <main id="questionHost"></main>
+      <aside class="side">
+        <strong>Fortschritt</strong>
+        <div class="progress"><div id="progressBar"></div></div>
+        <p id="sideInfo" style="color:var(--muted); margin-top:0;"></p>
+        <div id="dots" class="small-list"></div>
+        <div class="actions" style="margin-top:16px;"><button id="finish" class="secondary">Quiz auswerten</button><button id="mistakeBtn" class="ghost">Fehlertraining starten</button></div>
+      </aside>
     </section>
 
-    <section id="quiz" class="isy-quiz-list"></section>
-  </main>
+    <section id="summary" class="panel summary hidden"></section>
+    <p class="footer-note">Tipp: Im Lernmodus wird nach jeder Prüfung sofort erklärt. Im Prüfungsmodus erst am Ende.</p>
+  </div>
 
-  <script src="src/questions.js?v=3"></script>
-  <script src="app-v3.js?v=3"></script>
+  <script src="src/questions.js?v=4"></script>
+  <script src="app-v3.js?v=4"></script>
 </body>
 </html>
